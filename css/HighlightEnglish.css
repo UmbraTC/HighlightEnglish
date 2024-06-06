@@ -145,3 +145,18 @@ h2{
                 1px -1px 0 #000,
                 -1px -1px 0 #000;
 }
+h5{
+	max-width:120px ;
+	background-color: whitesmoke;
+	color: #30adff;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: 100;	
+	font-size: 25px;
+	margin-top: 0;
+	margin-bottom: 80px;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
