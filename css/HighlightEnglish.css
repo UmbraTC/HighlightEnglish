@@ -44,6 +44,7 @@ header {
   background:linear-gradient(40deg, rgba(138,53,3,1) 0%, rgba(245,114,5,1) 46%, rgba(255,252,0,1) 100%);
   padding: 3px;
 }
+
 .module {
   background: #222;
   color: white;
@@ -188,15 +189,7 @@ h6{
 	background-color: #729fcf;
 }
 
-.blue2{
 
-	width: 830px;
-	height: 330px;
-	border: 5px solid black;
-	margin-left: 10px;
-	margin-top: 70px;
-	background-color: #729fcf;
-}
 
 .homework{
 
@@ -220,4 +213,13 @@ h6{
 .separator{
 
 	height: 40px;
+}
+.blue2{
+
+	width: 830px;
+	height: 330px;
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-top: 70px;
+	background-color: #729fcf;
 }
