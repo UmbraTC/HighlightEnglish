@@ -1,0 +1,89 @@
+body {
+	background-color: #1b1e24;
+	margin: 0 auto;
+}
+
+header {
+
+font-family: 'Inder';font-size: 22px;    
+    <style>
+    body {
+    font-family: 'Inder';font-size: 22px;
+}
+</style>	
+  
+}
+
+h1, h2{
+	font-family: 'Inder';font-size: 22px;
+	font-size: 50px;
+	color: #30adff;
+	padding-top: 10px;
+	padding-bottom: 40px;
+
+}
+h3 {
+	font-size: 30px;
+	color: white;
+	padding-bottom: 30px;
+}
+
+header h1{
+	font-size: 50px;
+	color: #30adff;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: 0 auto;
+
+	
+}
+
+header img {
+	border: 3px solid #f57205;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+p {
+	font-family: 'Inder';font-size: 22px;
+	font-size: 25px;
+	color: #30adff;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+a {
+	font-size: 25px;
+	color: #f57205;
+}
+
+a:hover{ 
+color:#30adff 
+}
+
+
+main img{
+	max-width: 100%;
+}
+
+footer {
+
+
+	background-color:#f57205 ;
+	font-family: 'Inder';font-size: 22px;
+	font-size: 22px;
+	color: ghostwhite;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+footer a{
+
+	color: black;
+}
