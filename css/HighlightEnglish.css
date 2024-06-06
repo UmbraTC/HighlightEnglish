@@ -5,13 +5,9 @@ body {
 
 header {
 
-font-family: 'Inder';font-size: 22px;    
-    <style>
-    body {
-    font-family: 'Inder';font-size: 22px;
-}
-</style>	
-  
+    font-family: 'Inder';font-size: 22px;    
+    
+   
 }
 
 h1, h2{
@@ -39,7 +35,7 @@ header h1{
 }
 
 header img {
-	border: 3px solid #f57205;
+	border: 3px solid linear-gradient(rgb(245, 114, 5), rgb(227, 245, 5));;
 	margin: 0 auto;
 	max-width: 100%;
 }
