@@ -1,35 +1,38 @@
+
+  
 body {
+	max-width: 900px;
 	background-color: #1b1e24;
 	margin: 0 auto;
 }
 
 header {
 
-    font-family: 'Inder';font-size: 22px;    
-    
-   
-}
-
-h1, h2{
-	font-family: 'Inder';font-size: 22px;
-	font-size: 50px;
-	color: #30adff;
-	padding-top: 10px;
-	padding-bottom: 40px;
-
-}
+    font-family: 'Inder';
+    font-size: 22px;    
+ }
 h3 {
-	font-size: 30px;
+	font-size: 40px;
 	color: white;
-	padding-bottom: 30px;
+	text-align: center;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
 }
 
-header h1{
+}
+
+header {
 	font-size: 50px;
 	color: #30adff;
 	padding-top: 40px;
-	padding-bottom: 40px;
+	
 	margin: 0 auto;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
 }
 
 .module-border-wrap {
@@ -47,7 +50,7 @@ header h1{
 }
 
 main {
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 0 auto;
 	padding: 0 20px;
 }
@@ -77,15 +80,54 @@ main img{
 footer {
 
 
-	background-color:#f57205 ;
+	background: radial-gradient(circle, rgba(138,53,3,1) 0%, rgba(245,114,5,1) 46%, rgba(255,252,0,1) 100%);
 	font-family: 'Inder';font-size: 22px;
 	font-size: 22px;
-	color: ghostwhite;
+	color: #ece7e2;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
 }
 footer a{
 
-	color: black;
+	color: #545352;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+.class-name{
+	background: radial-gradient(circle, rgba(138,53,3,1) 0%, rgba(245,114,5,1) 46%, rgba(255,252,0,1) 100%);
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+   
+
+
+}
+.transparent{
+	height: 50px;
+	padding: 40px;
+	font-size: 35px ;
+	display: flex;
+	justify-content: center;
+	text-shadow: 0;
+	color: #30adff;
+}
+h1{
+
+	width: 97%;
+	font-family: 'Inder';
+	background: radial-gradient(circle, rgba(138,53,3,1) 0%, rgba(245,114,5,1) 46%, rgba(255,252,0,1) 100%);
+	font-size: 50px;
+	color: #30adff;	
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
 }
