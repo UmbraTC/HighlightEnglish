@@ -39,7 +39,7 @@ header {
 }
 
 .module-border-wrap {
-  width: 860px%;
+  width: 860px;
   
   padding: 1rem;
   position: center;
@@ -49,6 +49,7 @@ header {
 }
 
 .module {
+  
   background: #222;
   color: white;
   padding: 2rem;
