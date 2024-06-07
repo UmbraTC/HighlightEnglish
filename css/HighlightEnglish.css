@@ -39,7 +39,7 @@ header {
 }
 
 .module-border-wrap {
-  width: 860px;
+  width: 900px;
   
   padding: 1rem;
   position: center;
@@ -237,4 +237,7 @@ h6{
 }
 .audioc{
 	margin-top: 40px;
+}
+.heh{
+	border-right: 15px;
 }
