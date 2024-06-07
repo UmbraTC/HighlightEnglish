@@ -39,7 +39,7 @@ header {
 }
 
 .module-border-wrap {
-  max-width: 100%;
+  max-width: 860px%;
   max-height: 300px;
   padding: 1rem;
   position: center;
