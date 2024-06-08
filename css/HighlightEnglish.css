@@ -323,6 +323,12 @@ h6{
   width: 860px;
 	height: 620px;
 	border: 2px solid rgba(245,114,5,1);
+
+}.orgborderS06{
+  
+  width: 860px;
+	height: 580px;
+	border: 2px solid rgba(245,114,5,1);
 }
 
 .inputboxS01{
