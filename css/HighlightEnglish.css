@@ -258,7 +258,7 @@ h6{
 	background-color: #729fcf;
 }
 .orgborderS01{
-	
+
 	width: 860px;
 	height: 530px;
 	border: 2px solid rgba(245,114,5,1);
@@ -285,6 +285,14 @@ h6{
   font-size: 16px;
   background-color:  #d5dbdb;
 
+}.inputboxS02{
+
+	font-family: 'Liberation Sans', sans-serif;
+	font-weight: 100;
+  font-size: 16px;
+  background-color:  #d5dbdb;
+  width:150px;
+
 }
 .ol3011{
 	
@@ -297,14 +305,13 @@ h6{
 .list1{
 	
 	color: black;
-    font-family: 'Liberation Sans', sans-serif;
-    font-weight: 550;	
+  font-family: 'Liberation Sans', sans-serif;
+  font-weight: 550;	
 	font-size: 20px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	
-    max-width: 830px;
-    max-height: 410px;
+	max-width: 830px;
+  max-height: 410px;
 	
 }
 .separator{
