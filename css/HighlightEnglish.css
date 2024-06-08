@@ -207,15 +207,6 @@ h6{
 	background-color: #729fcf;
 
 }
-.blue2{
-
-	width: 830px;
-	height: 330px;
-	border: 5px solid black;
-	margin-left: 10px;
-	margin-top: 70px;
-	background-color: #729fcf;
-}
 
 .blueboxS01{
 	float:left;
@@ -226,6 +217,7 @@ h6{
 	margin-top: 8px;
 	background-color: #729fcf;
 
+
 }
 .blueboxS02{
 	width: 530px;
@@ -235,6 +227,16 @@ h6{
 	padding-top: 8px;
 	background-color: #729fcf;
 
+}
+
+.blueboxS03{
+
+	width: 830px;
+	height: 615px;
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-top: 70px;
+	background-color: #729fcf;
 }
 
 .blueC {
@@ -257,10 +259,19 @@ h6{
 	padding-top: 8px;
 	background-color: #729fcf;
 }
+
 .orgborderS01{
 
 	width: 860px;
 	height: 530px;
+	border: 2px solid rgba(245,114,5,1);
+
+}
+
+.orgborderS02{
+
+	width: 860px;
+	height: 780px;
 	border: 2px solid rgba(245,114,5,1);
 
 }
