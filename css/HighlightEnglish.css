@@ -309,7 +309,30 @@ h6{
 }
 
 .hwb{
-width: 860px;
+  width: 860px;
 	height: 580px;
 	border: 2px solid rgba(245,114,5,1);
+}
+
+.blueH1{
+	width: 830px;
+	height: 230px;
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-top: 70px;
+	background-color: #729fcf;
+}
+
+.li01302{
+	float: left;
+}
+
+.li02302{
+ margin-left: 450px;
+}
+
+.li02302, .li01302{
+	font-family: 'Liberation Sans', sans-serif;
+  font-weight: 550;
+  font-size: 30px;
 }
