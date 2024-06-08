@@ -278,17 +278,29 @@ h6{
 	height: 670px;
 	border: 2px solid rgba(245,114,5,1);
 }
+
 .inputboxS01{
 
 	font-family: 'Liberation Sans', sans-serif;
-	font-weight: 500;
+	font-weight: 600;
   font-size: 16px;
   background-color:  #d5dbdb;
 
-}.inputboxS02{
+}
+
+.inputboxS02{
 
 	font-family: 'Liberation Sans', sans-serif;
-	font-weight: 500;
+	font-weight: 600;
+  font-size: 16px;
+  background-color:  #d5dbdb;
+  width:150px;
+
+}
+.inputboxS03{
+
+	font-family: 'Liberation Sans', sans-serif;
+	font-weight: 600;
   font-size: 16px;
   background-color:  #d5dbdb;
   width:150px;
@@ -297,7 +309,7 @@ h6{
 .ol3011{
 	
 	font-family: 'Liberation Sans', sans-serif;
-	font-weight: 100;
+	font-weight: 600;
   font-size: 16px;
   background-color:  #d5dbdb;
 
