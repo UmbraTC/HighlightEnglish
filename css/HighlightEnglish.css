@@ -217,7 +217,7 @@ h6{
 	background-color: #729fcf;
 }
 
-.blueA{
+.blueboxS01{
 	float:left;
 	width: 255px;
 	height: 420px;
@@ -227,7 +227,7 @@ h6{
 	background-color: #729fcf;
 
 }
-.blueB{
+.blueboxS02{
 	width: 530px;
 	height: 420px;
 	border: 5px solid black;
@@ -303,7 +303,7 @@ h6{
 	font-weight: 600;
   font-size: 16px;
   background-color:  #d5dbdb;
-  width:150px;
+  
 
 }
 .ol3011{
