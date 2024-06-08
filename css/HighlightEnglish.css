@@ -198,7 +198,65 @@ h6{
 	background-color: #729fcf;
 }
 
+.blue308a{
+	width: 830px;
+	height: 590px;
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-top: 8px;
+	background-color: #729fcf;
 
+}
+.blue2{
+
+	width: 830px;
+	height: 330px;
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-top: 70px;
+	background-color: #729fcf;
+}
+
+.blueA{
+	float:left;
+	width: 255px;
+	height: 420px;
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-top: 8px;
+	background-color: #729fcf;
+
+}
+.blueB{
+	width: 530px;
+	height: 420px;
+	border: 5px solid black;
+	margin-left:295px;
+	padding-top: 8px;
+	background-color: #729fcf;
+
+}
+
+.blueC {
+
+	float:left;
+	width: 238px;
+	height: 320px;
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-top: 8px;
+	background-color: #729fcf;
+}
+
+.blueD {
+
+	width: 530px;
+	height: 490px;
+	border: 5px solid black;
+	margin-left:295px;
+	padding-top: 8px;
+	background-color: #729fcf;
+}
 
 .homework{
 
@@ -206,6 +264,14 @@ h6{
 	height: 500px;
 	border: 2px solid rgba(245,114,5,1);
 }
+
+.homework308a{
+  
+  width: 860px;
+	height: 670px;
+	border: 2px solid rgba(245,114,5,1);
+}
+
 .list1{
 	
 	color: black;
@@ -223,15 +289,10 @@ h6{
 
 	height: 40px;
 }
-.blue2{
-
-	width: 830px;
-	height: 330px;
-	border: 5px solid black;
-	margin-left: 10px;
-	margin-top: 70px;
-	background-color: #729fcf;
+.separator2{
+	height: 20px;
 }
+
 
 .tabla2{
 	margin-left: 75px;
@@ -254,27 +315,7 @@ h6{
 	margin-top: 6px;
 	padding-top: 6px;
 }
-.blueA{
-	float:left;
-	width: 238px;
-	height: 420px;
-	border: 5px solid black;
-	margin-left: 10px;
-	margin-top: 8px;
-	background-color: #729fcf;
-
-}
-.blueB{
-	width: 530px;
-	height: 420px;
-	border: 5px solid black;
-	margin-left:295px;
-	padding-top: 8px;
-	background-color: #729fcf;
-
-}
-
-	.wrapper {
+.wrapper {
     width: 860px;
     border: 1px solid black;
     overflow: hidden;
@@ -285,27 +326,6 @@ h6{
 
 	margin-left: 30px;
 	padding-left: 30px;
-}
-
-.blueC {
-
-	float:left;
-	width: 238px;
-	height: 320px;
-	border: 5px solid black;
-	margin-left: 10px;
-	margin-top: 8px;
-	background-color: #729fcf;
-}
-
-.blueD {
-
-	width: 530px;
-	height: 490px;
-	border: 5px solid black;
-	margin-left:295px;
-	padding-top: 8px;
-	background-color: #729fcf;
 }
 
 .hwb{
