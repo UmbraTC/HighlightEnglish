@@ -249,7 +249,7 @@ h6{
 	background-color: #729fcf;
 }
 
-.blueC {
+.blueboxS06 {
 
 	float:left;
 	width: 238px;
@@ -260,13 +260,22 @@ h6{
 	background-color: #729fcf;
 }
 
-.blueD {
+.blueboxS07 {
 
 	width: 530px;
 	height: 490px;
 	border: 5px solid black;
 	margin-left:295px;
 	padding-top: 8px;
+	background-color: #729fcf;
+}
+
+.blueboxS08 {
+	width: 830px;
+	height: 230px;
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-top: 70px;
 	background-color: #729fcf;
 }
 
@@ -297,6 +306,12 @@ h6{
 
 	width: 860px;
 	height: 500px;
+	border: 2px solid rgba(245,114,5,1);
+}
+.orgborderS05{
+  
+  width: 860px;
+	height: 620px;
 	border: 2px solid rgba(245,114,5,1);
 }
 
@@ -390,20 +405,8 @@ h6{
 	padding-left: 30px;
 }
 
-.hwb{
-  width: 860px;
-	height: 600px;
-	border: 2px solid rgba(245,114,5,1);
-}
 
-.blueH1{
-	width: 830px;
-	height: 230px;
-	border: 5px solid black;
-	margin-left: 10px;
-	margin-top: 70px;
-	background-color: #729fcf;
-}
+
 
 .li01302{
 	float: left;
@@ -421,9 +424,18 @@ h6{
 
 .drpmenuS01{
 	font-family: 'Liberation Sans', sans-serif;
-	font-weight: 100;
-  font-size: 20px;
+	font-size: 20px;
   background-color:  #d5dbdb ;
-   font-weight: 600;
+  font-weight: 600;
+}
+
+.inputS01{
+	
+	font-family: 'Liberation Sans', sans-serif;
+	font-size: 20px;
+  background-color:  #d5dbdb ;
+  font-weight: 600;
+  width: 860px;
+  height: 250px;
 }
 
