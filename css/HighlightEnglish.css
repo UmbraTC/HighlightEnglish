@@ -257,6 +257,12 @@ h6{
 	padding-top: 8px;
 	background-color: #729fcf;
 }
+.orgborderS01{
+	width: 860px;
+	height: 530px;
+	border: 2px solid rgba(245,114,5,1);
+
+}
 
 .homework{
 
@@ -271,7 +277,22 @@ h6{
 	height: 670px;
 	border: 2px solid rgba(245,114,5,1);
 }
+.inputboxS01{
 
+	font-family: 'Liberation Sans', sans-serif;
+	font-weight: 100;
+  font-size: 16px;
+  background-color:  #d5dbdb;
+
+}
+.ol3011{
+	
+	font-family: 'Liberation Sans', sans-serif;
+	font-weight: 100;
+  font-size: 16px;
+  background-color:  #d5dbdb;
+
+}
 .list1{
 	
 	color: black;
@@ -364,11 +385,3 @@ h6{
   background-color:  #d5dbdb ;
 }
 
-.ol3011{
-	
-	font-family: 'Liberation Sans', sans-serif;
-	font-weight: 100;
-  font-size: 16px;
-  background-color:  #d5dbdb;
-
-}
