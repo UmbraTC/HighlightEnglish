@@ -319,6 +319,16 @@ h6{
 	background-color: #729fcf;
 }
 
+.blueboxS10 {
+	
+	width: 830px;
+	height: 950px;
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-top: 70px;
+	background-color: #729fcf;
+}
+
 .orgborderS01{
 
 	width: 860px;
@@ -375,6 +385,13 @@ h6{
   
   width: 860px;
 	height: 800px;
+	border: 2px solid rgba(245,114,5,1);
+}
+
+.orgborderS09{
+  
+  width: 860px;
+	height: 1090px;
 	border: 2px solid rgba(245,114,5,1);
 }
 
@@ -537,6 +554,16 @@ h6{
   font-weight: 600;
   width: 860px;
   height: 250px;
+}
+
+.inputS02{
+	
+	font-family: 'Liberation Sans', sans-serif;
+	font-size: 20px;
+  background-color:  #d5dbdb ;
+  font-weight: 600;
+  width: 750px;
+  height: 50px;
 }
 
 .Alist ::marker {
