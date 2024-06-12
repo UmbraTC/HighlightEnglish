@@ -437,7 +437,7 @@ h6{
 	font-size: 20px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	height: 25.5 px;
+	max-height: 2;
 
 	
 }
@@ -518,3 +518,6 @@ h6{
   height: 250px;
 }
 
+.Alist ::marker {
+  color: yellow;
+}
