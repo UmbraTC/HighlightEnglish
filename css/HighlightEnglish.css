@@ -429,7 +429,21 @@ h6{
 	max-width: 830px;
   max-height: 410px;
 	
-}.list3091{
+}
+.list3091{
+	
+	color: black;
+  font-family: 'Liberation Sans', sans-serif;
+  font-weight: 550;	
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	max-height: 2;
+
+	
+}
+
+.list3051{
 	
 	color: black;
   font-family: 'Liberation Sans', sans-serif;
@@ -520,4 +534,8 @@ h6{
 
 .Alist ::marker {
   color: yellow;
+}
+
+.ls305{
+	background-color: yellow;
 }
