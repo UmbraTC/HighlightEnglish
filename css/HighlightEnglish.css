@@ -610,4 +610,19 @@ h6{
 .ls305{
 	background-color: yellow;
 }
-		
+
+.long{
+
+	width: 860px;
+	height: 65px;
+	font-family: 'Inder';
+	background: radial-gradient(circle, rgba(138,53,3,1) 0%, rgba(245,114,5,1) 46%, rgba(255,252,0,1) 100%);
+	font-size: 40px;
+	color: #30adff;	
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+}
