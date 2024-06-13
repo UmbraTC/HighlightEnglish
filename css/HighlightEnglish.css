@@ -337,6 +337,16 @@ h6{
 	margin-top: 70px;
 	background-color: #729fcf;
 }
+
+.blueboxS12 {
+	
+	width: 830px;
+	height: 350px;
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-top: 70px;
+	background-color: #729fcf;
+}
 .greenboxS1 {
 	
 	width: 830px;
@@ -414,6 +424,12 @@ h6{
   
   width: 860px;
 	height: 1090px;
+	border: 2px solid rgba(245,114,5,1);
+}
+.orgborderS10{
+  
+  width: 860px;
+	height: 540px;
 	border: 2px solid rgba(245,114,5,1);
 }
 
@@ -595,3 +611,4 @@ h6{
 .ls305{
 	background-color: yellow;
 }
+		
