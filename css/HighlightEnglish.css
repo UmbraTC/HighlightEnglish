@@ -394,9 +394,10 @@ h6{
 .blueboxS3113 {
 
 	width: 830px;
-	height: 400px;
+	height: 730px;
 	border: 5px solid black;
 	margin-left: 10px;
+	margin-top: 65px;
 	padding-top: 8px;
 	background-color: #729fcf;
 	
@@ -527,6 +528,13 @@ h6{
   
   width: 860px;
 	height: 1760px;
+	border: 2px solid rgba(245,114,5,1);
+}
+
+.orgborderS3113{
+  
+  width: 860px;
+	height: 900px;
 	border: 2px solid rgba(245,114,5,1);
 }
 
