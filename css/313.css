@@ -51,7 +51,30 @@ h3{
                 1px -1px 0 #000,
                 -1px -1px 0 #000;
 }
+h2{
+	font-size: 35px;
+	color: white;
+	padding-top: 40px;
+	
+	margin: 0 auto;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+}
 
 p{
 	text-align: center;
+}
+.ex01{
+	font-size: 25px;
+	font-weight: italic;
+	color: black;
+	padding-top: 120px;
+	
+	margin: 0 auto;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
 }
