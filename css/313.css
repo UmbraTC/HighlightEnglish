@@ -1,0 +1,57 @@
+html {
+  font-size: 10px; 
+  font-family: 'Liberation Sans', sans-serif;
+  font-weight: 500;
+  background-color: #1b1e24;
+} 
+
+body {
+  width: 900px;
+  margin: 0 auto;  
+  padding: 0 20px 20px 20px;
+  
+}
+
+.header-box{
+	
+	background: radial-gradient(circle, rgba(138,53,3,1) 0%, rgba(245,114,5,1) 46%, rgba(255,252,0,1) 100%);
+	box-shadow: 0 0 20px 0 #0000B3;
+	height: 65px;   
+    width: 100%;
+}
+
+h1 {
+		
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 50px;
+    color: #30adff;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+   
+}
+header {
+	font-size: 35px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #30adff;
+	padding-top: 40px;	
+	margin: 0 auto;
+	text-shadow: -1px  1px 0 #000,
+                  1px  1px 0 #000,
+                  1px -1px 0 #000,
+                 -1px -1px 0 #000;
+}
+
+h3{
+	font-size: 40px;
+	color: white;
+	padding-top: 40px;
+	
+	margin: 0 auto;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+}
+
+p{
+	text-align: center;
+}
