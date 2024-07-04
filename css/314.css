@@ -78,18 +78,18 @@ p{
 
 .orgborder01{
 	width: 100%px;
-	height: 1410px;
+	height: 1440px;
 	border: 2px solid rgba(245,114,5,1);
 }
 .orgborder02{
 	width: 100%px;
-	height: 1410px;
+	height: 1130px;
 	border: 2px solid rgba(245,114,5,1);
 }
 
 .bluebox01{
   width: 860px;
-	height: 1150px;
+	height: 1180px;
 	border: 5px solid black;
 	margin-left: 10px;
 	margin-top: 70px;
@@ -97,7 +97,7 @@ p{
 }
 .bluebox02{
   width: 860px;
-	height: 1150px;
+	height: 910px;
 	border: 5px solid black;
 	margin-left: 10px;
 	margin-top: 70px;
@@ -106,8 +106,8 @@ p{
 
 span{
   font-size: 25px;
-	font-weight: 1;
-	color: orangered;
+	font-wight: 1;
+	color:orangered;
 	text-shadow: -1px 1px 0 #000,
                 1px 1px 0 #000,
                 1px -1px 0 #000,
@@ -119,6 +119,15 @@ span{
 	font-size: 20px;
   background-color:  #d5dbdb ;
   font-weight: 600;
+}
+.inputS02{
+	
+	font-family: 'Liberation Sans', sans-serif;
+	font-size: 20px;
+  background-color:  #d5dbdb ;
+  font-weight: 600;
+  width: 750px;
+  height: 50px;
 }
 
 a {
