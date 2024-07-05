@@ -87,6 +87,12 @@ p{
 	border: 2px solid rgba(245,114,5,1);
 }
 
+.orgborder03{
+	width: 100%px;
+	height: 830px;
+	border: 2px solid rgba(245,114,5,1);
+}
+
 .bluebox01{
   width: 860px;
 	height: 1000px;
@@ -105,7 +111,7 @@ p{
 }
 .bluebox03{
   width: 860px;
-	height: 610px;
+	height: 560px;
 	border: 5px solid black;
 	margin-left: 10px;
 	margin-top: 70px;
@@ -175,6 +181,21 @@ footer {
 footer a{
 
 	color: #545352;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+h5{
+	max-width:120px ;
+	background-color: orange;
+	color: #30adff;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: 100;	
+	font-size: 25px;
+	margin-top: 0;
+	margin-bottom: 60px;
 	text-shadow: -1px 1px 0 #000,
                 1px 1px 0 #000,
                 1px -1px 0 #000,
