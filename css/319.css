@@ -1,0 +1,239 @@
+html {
+  font-size: 10px; 
+  font-family: 'Liberation Sans', sans-serif;
+  font-weight: 500;
+  background-color: #1b1e24;
+} 
+
+body {
+  width: 900px;
+  margin: 0 auto;  
+  padding: 0 20px 20px 20px;
+  
+}
+
+.header-box{
+	
+	background: radial-gradient(circle, rgba(138,53,3,1) 0%, rgba(245,114,5,1) 46%, rgba(255,252,0,1) 100%);
+	box-shadow: 0 0 20px 0 #0000B3;
+	height: 65px;   
+    width: 100%;
+}
+
+h1 {
+		
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 50px;
+    color: #30adff;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+   
+}
+header {
+	font-size: 35px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #30adff;
+	padding-top: 40px;	
+	margin: 0 auto;
+	text-shadow: -1px  1px 0 #000,
+                  1px  1px 0 #000,
+                  1px -1px 0 #000,
+                 -1px -1px 0 #000;
+}
+
+h3{
+	font-size: 35px;
+	color: white;
+	padding-top: 40px;
+	
+	margin: 0 auto;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+}
+h2{
+	font-size: 35px;
+	color: white;
+	padding-top: 40px;
+	padding-left: 20px;
+	
+	margin: 0 auto;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+}
+
+p{
+	text-align: center;
+}
+
+.ex01{
+	font-size: 25px;
+	color: black;
+	padding-top: 20px;
+	padding-right: 30px;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+.orgborder01{
+	width: 100%px;
+	height: 1160px;
+	border: 2px solid rgba(245,114,5,1);
+}
+.orgborder02{
+	width: 100%px;
+	height: 840px;
+	border: 2px solid rgba(245,114,5,1);
+}
+
+.orgborder03{
+	width: 100%px;
+	height: 980px;
+	border: 2px solid rgba(245,114,5,1);
+}
+
+.bluebox01{
+  width: 860px;
+	height: 970px;
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-top: 70px;
+	background-color: #729fcf;
+}
+.bluebox02{
+  width: 860px;
+	height: 590px;
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-top: 70px;
+	background-color: #729fcf;
+}
+.bluebox03{
+  width: 860px;
+	height: 730px;
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-top: 70px;
+	background-color: #729fcf;
+}
+
+span{
+  font-size: 25px;
+	font-wight: 1;
+	color:orangered;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+}
+
+.drpmenuS01{
+	font-family: 'Liberation Sans', sans-serif;
+	font-size: 20px;
+  background-color:  #d5dbdb ;
+  font-weight: 600;
+}
+.inputS02{
+	
+	font-family: 'Liberation Sans', sans-serif;
+	font-size: 20px;
+  background-color:  #d5dbdb ;
+  font-weight: 600;
+  width: 750px;
+  height: 100px;
+}
+.inputS03{
+	
+	font-family: 'Liberation Sans', sans-serif;
+	font-size: 20px;
+  background-color:  #d5dbdb ;
+  font-weight: 600;
+  width: 750px;
+  height: 250px;
+}
+
+a {
+	font-size: 25px;
+	color: #f57205;
+}
+
+a:hover{ 
+  color:#30adff 
+}
+footer {
+
+
+	width: 100%;
+	background: radial-gradient(circle, rgba(138,53,3,1) 0%, rgba(245,114,5,1) 46%, rgba(255,252,0,1) 100%);
+	font-family: 'Inder';font-size: 22px;
+	font-size: 22px;
+	color: #ece7e2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+footer a{
+
+	color: #545352;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+h5{
+	max-width:120px ;
+	background-color: orange;
+	color: #30adff;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: 100;	
+	font-size: 25px;
+	margin-top: 0;
+	margin-bottom: 60px;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+
+.blueboxS06 {
+
+	float:left;
+	width: 258px;
+	height: 880px;
+	border: 5px solid black;
+	margin-left: 10px;
+
+	background-color: #729fcf;
+	padding-top: 20px;
+}
+
+.blueboxS07 {
+
+	width: 550px;
+	height: 350px;
+	border: 5px solid black;
+	margin-left:295px;
+
+	padding-top: 20px;
+	background-color: #729fcf;
+}
+.list1{
+	
+	color: black;
+  font-family: 'Liberation Sans', sans-serif;
+  font-weight: 550;	
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	
+}
