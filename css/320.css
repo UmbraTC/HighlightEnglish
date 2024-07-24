@@ -142,15 +142,16 @@ span{
 .drpmenuN01{
 	font-family: 'Alice', sans-serif;
 	font-size: 30px;
-	color:  #102C57 ;
+	color:  #DAC0A3 ;
   font-weight: 600;
+  background: #102C57;	
+  text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
 }
-.drpmenuIN01{
-	font-family: 'Alice', sans-serif;
-	font-size: 30px;
-	color:  #102C57 ;
-  font-weight: 600;
-}
+
 .inputS02{
 	
 	font-family: 'Alice', sans-serif;
@@ -250,4 +251,7 @@ h5{
 	margin-bottom: 10px;
 	
 	
+}
+label{
+	padding-left: 45px;
 }
