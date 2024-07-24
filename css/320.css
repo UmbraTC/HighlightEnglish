@@ -15,8 +15,11 @@ body {
 .header-box{
 	
 	background: #102C57;
-	height: 65px;   
-  width: 100%;
+		text-shadow: -1px  1px 0 #000,
+                  1px  1px 0 #000,
+                  1px -1px 0 #000,
+                 -1px -1px 0 #000;
+	width: 100%;
 }
 
 h1 {
@@ -24,34 +27,31 @@ h1 {
 	font-family: 'Alice';
 	font-size: 50px;
   color: #DAC0A3;
-  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+  
    
 }
 header {
 	font-size: 35px;
 	font-family: 'Alice';
 	color: #DAC0A3;
-	padding-top: 40px;	
+	padding-top: 0px;	
 	margin: 0 auto;
 	text-shadow: -1px  1px 0 #000,
                   1px  1px 0 #000,
                   1px -1px 0 #000,
                  -1px -1px 0 #000;
+  background-color: #102C57;
 }
 
 h3{
 	font-size: 35px;
-	color: white;
+	color: #102C57;
 	padding-top: 40px;
 	margin: 0 auto;
-	text-shadow: -1px 1px 0 #000,
-                1px 1px 0 #000,
-                1px -1px 0 #000,
-                -1px -1px 0 #000;
-}
+	}
 h2{
 	font-size: 35px;
-	color: white;
+	color: #102C57;
 	padding-top: 40px;
 	padding-left: 20px;
 	margin: 0 auto;
@@ -139,10 +139,16 @@ span{
                 -1px -1px 0 #000;
 }
 
-.drpmenuS01{
+.drpmenuN01{
 	font-family: 'Alice', sans-serif;
-	font-size: 20px;
-  background-color:  #d5dbdb ;
+	font-size: 30px;
+	color:  #102C57 ;
+  font-weight: 600;
+}
+.drpmenuIN01{
+	font-family: 'Alice', sans-serif;
+	font-size: 30px;
+	color:  #102C57 ;
   font-weight: 600;
 }
 .inputS02{
