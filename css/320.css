@@ -128,7 +128,14 @@ p{
 	margin-top: 70px;
 	background-color: #EADBC8;
 }
-
+.logoTop{
+	background-color: #102C57;
+	width: 90%;
+}
+.headbox{
+	background: #102C57;
+	width:100%;
+}
 span{
   font-size: 25px;
 	font-wight: 1;
@@ -172,12 +179,12 @@ span{
 }
 
 a {
-	font-size: 25px;
-	color: #f57205;
+	font-size: 35px;
+	color: #102C57;
 }
 
 a:hover{ 
-  color:#DAC0A3 
+  color:#e0a462; 
 }
 footer {
 
@@ -254,4 +261,16 @@ h5{
 }
 label{
 	padding-left: 45px;
+}
+.transparent{
+	margin-top: 30px;
+	height: 70px;
+	padding-top: 25px;
+}
+.fraseOne{
+	font-size: 35px;
+	color: #102C57;
+}
+.listhv{
+	flex: ;
 }
