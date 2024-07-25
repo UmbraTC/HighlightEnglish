@@ -67,6 +67,15 @@ h4{
 	margin: 0 auto;
 	
 }
+h6{
+	font-size: 35px;
+	color: #102C57;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	
+}
 
 p{
 	text-align: center;
@@ -94,12 +103,17 @@ p{
 
 .orgborder03{
 	width: 100%px;
-	height: 980px;
+	height: 1070px;
 	border: 5px solid #102C57;
 }
 .orgborder04{
 	width: 100%px;
 	height: 910px;
+	border: 5px solid #102C57;
+}
+.orgborder05{
+	width: 100%px;
+	height: 1680px;
 	border: 5px solid #102C57;
 }
 
@@ -119,9 +133,9 @@ p{
 	margin-top: 70px;
 	background-color: #EADBC8;
 }
-.bluebox03{
+.exBox03{
   width: 860px;
-	height: 730px;
+	height: 820px;
 	border: 5px solid black;
 	margin-left: 10px;
 	margin-top: 70px;
@@ -235,24 +249,25 @@ h5{
 
 }
 
-.blueboxS06 {
+.exBox07 {
 
-	float:left;
-	width: 258px;
-	height: 880px;
+	
+  width: 860px;
+	height: 850px;
 	border: 5px solid black;
 	margin-left: 10px;
 	background-color: #EADBC8;
 	padding-top: 20px;
 }
 
-.blueboxS07 {
-
+.exBox06 {
+  
+  margin-top:50px;
+  margin-bottom:50px;
 	width: 550px;
-	height: 350px;
+	height: 550px;
 	border: 5px solid black;
-	margin-left:295px;
-	padding-top: 20px;
+	margin-left:10px;
 	background-color: #EADBC8;
 }
 .list1{
