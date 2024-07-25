@@ -55,10 +55,7 @@ h2{
 	padding-top: 40px;
 	padding-left: 20px;
 	margin: 0 auto;
-	text-shadow: -1px 1px 0 #000,
-                1px 1px 0 #000,
-                1px -1px 0 #000,
-                -1px -1px 0 #000;
+	
 }
 
 p{
@@ -77,23 +74,23 @@ p{
 .orgborder01{
 	width: 100%px;
 	height: 1160px;
-	border: 2px solid rgba(245,114,5,1);
+	border: 2px solid #102C57;
 }
 .orgborder02{
 	width: 100%px;
 	height: 840px;
-	border: 2px solid rgba(245,114,5,1);
+	border: 2px solid #102C57;
 }
 
 .orgborder03{
 	width: 100%px;
 	height: 980px;
-	border: 2px solid rgba(245,114,5,1);
+	border: 2px solid #102C57;
 }
 .orgborder04{
 	width: 100%px;
 	height: 910px;
-	border: 2px solid rgba(245,114,5,1);
+	border: 2px solid #102C57;
 }
 
 .bluebox01{
@@ -270,7 +267,4 @@ label{
 .fraseOne{
 	font-size: 35px;
 	color: #102C57;
-}
-.listhv{
-	flex: ;
 }
