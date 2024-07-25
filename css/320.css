@@ -49,11 +49,21 @@ h3{
 	padding-top: 40px;
 	margin: 0 auto;
 	}
+
 h2{
 	font-size: 35px;
-	color: #102C57;
+	color: #DAC0A3;
 	padding-top: 40px;
 	padding-left: 20px;
+	margin: 0 auto;
+	
+}
+h4{
+	font-size: 35px;
+	color: #DAC0A3;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
 	margin: 0 auto;
 	
 }
@@ -74,23 +84,23 @@ p{
 .orgborder01{
 	width: 100%px;
 	height: 1160px;
-	border: 2px solid #102C57;
+	border: 5px solid #102C57;
 }
 .orgborder02{
 	width: 100%px;
 	height: 840px;
-	border: 2px solid #102C57;
+	border: 5px solid #102C57;
 }
 
 .orgborder03{
 	width: 100%px;
 	height: 980px;
-	border: 2px solid #102C57;
+	border: 5px solid #102C57;
 }
 .orgborder04{
 	width: 100%px;
 	height: 910px;
-	border: 2px solid #102C57;
+	border: 5px solid #102C57;
 }
 
 .bluebox01{
@@ -267,4 +277,5 @@ label{
 .fraseOne{
 	font-size: 35px;
 	color: #102C57;
+
 }
