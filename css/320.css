@@ -41,6 +41,9 @@ header {
                   1px -1px 0 #000,
                  -1px -1px 0 #000;
   background-color: #102C57;
+  position: relative;
+  align-content: center;
+  height: 80px;
 }
 
 h3{
@@ -89,29 +92,12 @@ p{
 	margin: 0 auto;
 	font-weight: bold;
 }
-
-.orgborder01{
-	width: 100%px;
-	height: 1160px;
-	border: 5px solid #102C57;
-}
-.orgborder02{
-	width: 100%px;
-	height: 1040px;
-	border: 5px solid #102C57;
-}
-
 .orgborder03{
 	width: 100%px;
 	height: fit-content;
 	border: 5px solid #102C57;
 	padding-bottom: 20px;
 
-}
-.orgborder04{
-	width: 100%px;
-	height: 910px;
-	border: 5px solid #102C57;
 }
 .orgborder05{
 	width: 100%px;
@@ -120,22 +106,6 @@ p{
 	padding-bottom: 20px;
 }
 
-.bluebox01{
-  width: 860px;
-	height: 970px;
-	border: 5px solid black;
-	margin-left: 10px;
-	margin-top: 70px;
-	background-color: #EADBC8;
-}
-.exBox02{
-  width: 860px;
-	height: 850px;
-	border: 5px solid black;
-	margin-left: 10px;
-	margin-top: 70px;
-	background-color: #EADBC8;
-}
 .exBox03{
   width: 860px;
 	height: fit-content;
@@ -144,31 +114,6 @@ p{
 	margin-top: 70px;
 	padding-bottom: 20xp;
 	background-color: #EADBC8;
-}
-.bluebox04{
-  width: 860px;
-	height: 610px;
-	border: 5px solid black;
-	margin-left: 10px;
-	margin-top: 70px;
-	background-color: #EADBC8;
-}
-.logoTop{
-	background-color: #102C57;
-	width: 90%;
-}
-.headbox{
-	background: #102C57;
-	width:100%;
-}
-span{
-  font-size: 25px;
-	font-wight: 1;
-	color:orangered;
-	text-shadow: -1px 1px 0 #000,
-                1px 1px 0 #000,
-                1px -1px 0 #000,
-                -1px -1px 0 #000;
 }
 
 .drpmenuN01{
@@ -288,11 +233,7 @@ h5{
 label{
 	padding-left: 45px;
 }
-.transparent{
-	margin-top: 30px;
-	height: 70px;
-	padding-top: 25px;
-}
+
 .fraseOne{
 	font-size: 35px;
 	color: #102C57;
@@ -307,3 +248,9 @@ label{
   
 
 }
+.pizza{
+display: inline;
+width: 400px;
+}
+
+
