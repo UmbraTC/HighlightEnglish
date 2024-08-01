@@ -105,6 +105,8 @@ p{
 	width: 100%px;
 	height: fit-content;
 	border: 5px solid #102C57;
+	padding-bottom: 20px;
+
 }
 .orgborder04{
 	width: 100%px;
@@ -113,8 +115,9 @@ p{
 }
 .orgborder05{
 	width: 100%px;
-	height: 1680px;
+	height: fit-content;
 	border: 5px solid #102C57;
+	padding-bottom: 20px;
 }
 
 .bluebox01{
@@ -139,6 +142,7 @@ p{
 	border: 5px solid black;
 	margin-left: 10px;
 	margin-top: 70px;
+	padding-bottom: 20xp;
 	background-color: #EADBC8;
 }
 .bluebox04{
