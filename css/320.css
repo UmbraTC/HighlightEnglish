@@ -103,7 +103,7 @@ p{
 
 .orgborder03{
 	width: 100%px;
-	height: 1070px;
+	height: fit-content;
 	border: 5px solid #102C57;
 }
 .orgborder04{
@@ -135,7 +135,7 @@ p{
 }
 .exBox03{
   width: 860px;
-	height: 820px;
+	height: fit-content;
 	border: 5px solid black;
 	margin-left: 10px;
 	margin-top: 70px;
@@ -253,7 +253,7 @@ h5{
 
 	
   width: 860px;
-	height: 850px;
+	height: fit-content;
 	border: 5px solid black;
 	margin-left: 10px;
 	background-color: #EADBC8;
@@ -265,7 +265,7 @@ h5{
   margin-top:50px;
   margin-bottom:50px;
 	width: 550px;
-	height: 550px;
+	height: fit-content;
 	border: 5px solid black;
 	margin-left:10px;
 	background-color: #EADBC8;
