@@ -252,5 +252,11 @@ label{
 display: inline;
 width: 400px;
 }
+.grid1{
+	 display: grid;
+	 grid-template-columns: 55% 30%;
+}
 
-
+.listhv{
+	padding-top: 100px;
+}
