@@ -260,3 +260,9 @@ width: 400px;
 .listhv{
 	padding-top: 100px;
 }
+
+.inputS01{
+	width:100%;
+	height: 60px;
+	font-family: Alice;
+}
