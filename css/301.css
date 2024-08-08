@@ -270,3 +270,14 @@ height: 400 px;
 	height: 60px;
 	font-family: Alice;
 }
+
+.tabla1C{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+.tabla1{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
