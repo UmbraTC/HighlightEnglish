@@ -249,9 +249,13 @@ label{
 
 }
 .pizza{
-display: inline;
-width: 400px;
+ 
+grid-column: 2 / 3;
+width:400 px;
+height: 400 px;
+
 }
+
 .grid1{
 	 display: grid;
 	 grid-template-columns: 55% 30%;
