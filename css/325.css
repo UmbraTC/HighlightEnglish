@@ -1,0 +1,288 @@
+html {
+  font-size: 10px; 
+  font-family: 'Alice';font-size: 22px;
+  font-weight: 500;
+  background-color: #FEFAF6;
+} 
+
+body {
+  width: 900px;
+  margin: 0 auto;  
+  padding: 0 20px 20px 20px;
+  
+}
+
+.header-box{
+	
+	background: #102C57;
+		text-shadow: -1px  1px 0 #000,
+                  1px  1px 0 #000,
+                  1px -1px 0 #000,
+                 -1px -1px 0 #000;
+	width: 100%;
+}
+
+h1 {
+		
+	font-family: 'Alice';
+	font-size: 50px;
+  color: #DAC0A3;
+  
+   
+}
+header {
+	font-size: 35px;
+	font-family: 'Alice';
+	color: #DAC0A3;
+	padding-top: 0px;	
+	margin: 0 auto;
+	text-shadow: -1px  1px 0 #000,
+                  1px  1px 0 #000,
+                  1px -1px 0 #000,
+                 -1px -1px 0 #000;
+  background-color: #102C57;
+  position: relative;
+  align-content: center;
+  height: 80px;
+}
+
+h3{
+	font-size: 35px;
+	color: #102C57;
+	padding-top: 40px;
+	margin: 0 auto;
+	}
+
+h2{
+	font-size: 35px;
+	color: #DAC0A3;
+	padding-top: 40px;
+	padding-left: 20px;
+	margin: 0 auto;
+	
+}
+h4{
+	font-size: 35px;
+	color: #DAC0A3;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	
+}
+h6{
+	font-size: 35px;
+	color: #102C57;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	
+}
+
+p{
+	text-align: center;
+}
+
+.ex01{
+	font-size: 25px;
+	color: black;
+	padding-top: 20px;
+	padding-right: 30px;
+	margin: 0 auto;
+	font-weight: bold;
+}
+.orgborder03{
+	width: 100%px;
+	height: fit-content;
+	border: 5px solid #102C57;
+	padding-bottom: 20px;
+
+}
+.orgborder05{
+	width: 100%px;
+	height: fit-content;
+	border: 5px solid #102C57;
+	padding-bottom: 20px;
+}
+
+.exBox03{
+  width: 860px;
+	height: fit-content;
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-top: 70px;
+	padding-bottom: 20xp;
+	background-color: #EADBC8;
+}
+
+.drpmenuN01{
+	font-family: 'Alice', sans-serif;
+	font-size: 30px;
+	color:  #DAC0A3 ;
+  font-weight: 600;
+  background: #102C57;	
+  text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+
+.inputS02{
+	
+	font-family: 'Alice', sans-serif;
+	font-size: 20px;
+  background-color:  #d5dbdb ;
+  font-weight: 600;
+  width: 750px;
+  height: 100px;
+}
+.inputS03{
+	
+	font-family: 'Alice', sans-serif;
+	font-size: 20px;
+  background-color:  #d5dbdb ;
+  font-weight: 600;
+  width: 750px;
+  height: 250px;
+}
+
+a {
+	font-size: 35px;
+	color: #102C57;
+}
+
+a:hover{ 
+  color:#e0a462; 
+}
+footer {
+
+
+	width: 100%;
+	background: #102C57;
+	font-family: 'Inder';font-size: 22px;
+	font-size: 22px;
+	color: #ece7e2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+footer a{
+
+	color: #545352;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+h5{
+	max-width:120px ;
+	background-color: orange;
+	color: #DAC0A3;
+	font-family: 'Alice', sans-serif;
+	font-weight: 100;	
+	font-size: 25px;
+	margin-top: 0;
+	margin-bottom: 60px;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+
+.exBox07 {
+
+	
+  width: 860px;
+	height: fit-content;
+	border: 5px solid black;
+	margin-left: 10px;
+	background-color: #EADBC8;
+	padding-top: 20px;
+}
+
+.exBox06 {
+  
+  margin-top:50px;
+  margin-bottom:50px;
+	width: 550px;
+	height: fit-content;
+	border: 5px solid black;
+	margin-left:10px;
+	background-color: #EADBC8;
+}
+.list1{
+	
+	color: black;
+  font-family: 'Alice', sans-serif;
+  font-weight: 550;	
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	
+}
+label{
+	padding-left: 45px;
+}
+
+.fraseOne{
+	font-size: 35px;
+	color: #102C57;
+
+}
+.drpmenuS01{
+	font-family: 'Alice', sans-serif;
+	font-size: 20px;
+	color:  #102C57 ;
+  font-weight: 600;
+  background: #DAC0A3;	
+  
+
+}
+.pizza{
+ 
+grid-column: 2 / 3;
+width:400 px;
+height: 400 px;
+
+}
+
+.grid1{
+	 display: grid;
+	 grid-template-columns: 55% 30%;
+}
+
+.listhv{
+	padding-top: 100px;
+}
+
+.inputS01{
+
+	width: 90% ;
+	height: 60px;
+	font-family: Alice;
+	background-color: #DAC0A3;
+	color:  #102C57 ;
+	font-size: 18px;
+}
+
+.tabla1C{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+.tabla1{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+
