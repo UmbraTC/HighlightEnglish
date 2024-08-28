@@ -1,0 +1,390 @@
+
+
+
+/* Main variables */
+
+
+:root {
+
+  --MainTextColor : #102C57;
+  --ClearTextColor :#DAC0A3 ;
+  --MainBackgroundColor : #FEFAF6;
+  --MainBlockColor: #102C57;
+  --MainHighlightColor: #e0a462;
+
+  --MainFont: 'Alice';
+}
+
+html {
+   
+  font-family: var(--MainFont);
+  font-size: 22px;
+  font-weight: 500;
+  background-color: var(--MainBackgroundColor);
+
+} 
+
+h1 {		
+
+	font-family: var(--MainFont);
+	font-size: 50px;
+  color: var(--ClearTextColor);
+} 
+
+h2 {
+
+	font-size: 35px;
+	color: var(--ClearTextColor);
+	padding-top: 40px;
+	padding-left: 20px;
+	margin: 0 auto;
+}
+
+h3 {
+
+	font-size: 35px;
+	color: var(--MainTextColor);
+	padding-top: 40px;
+	margin: 0 auto;
+}
+
+
+h4 {
+
+	font-size: 35px;
+	color: var(--ClearTextColor);
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	
+}
+
+h5 {
+	
+	max-width:120px ;
+	background-color: orange;
+	color: var(--ClearTextColor);
+	font-family: var(--MainFont) , sans-serif;
+	font-weight: 100;	
+	font-size: 25px;
+	margin-top: 0;
+	margin-bottom: 60px;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+	
+h6 {
+
+	font-size: 35px;
+	color: var(--MainTextColor);
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	
+}
+
+a {
+	
+	font-size: 35px;
+	color: var(--MainTextColor);
+}
+
+a:hover { 
+  
+  color:#e0a462; 
+}
+
+p {
+	
+	text-align: center;
+}
+
+label{
+	padding-left: 45px;
+}
+
+
+
+
+/* <body> styles */
+
+
+
+
+body {
+
+  width: 900px;
+  margin: 0 auto;  
+  padding: 0 20px 20px 20px;
+  
+}
+
+
+
+
+/* <header> styles */
+
+
+
+header {
+	font-size: 35px;
+	font-family: var(--MainFont);
+	color: #DAC0A3;
+	padding-top: 0px;	
+	margin: 0 auto;
+	text-shadow: -1px  1px 0 #000,
+                  1px  1px 0 #000,
+                  1px -1px 0 #000,
+                 -1px -1px 0 #000;
+  background-color: var(--MainTextColor);
+  position: relative;
+  align-content: center;
+  height: 80px;
+}
+
+
+
+
+
+/* <nav> styles */
+ 
+ .drpmenuN01{
+	font-family: var(--MainFont), sans-serif;
+	font-size: 30px;
+	color:  #DAC0A3 ;
+  font-weight: 600;
+  background: #102C57;	
+  text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+
+
+
+/* <main> styles */
+
+
+
+
+/* <introduction> styles */
+
+
+
+.title-box {
+	
+	background: var(--MainTextColor);
+	text-shadow: -1px  1px 0 #000,
+                1px  1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+	width: 100%;
+}
+
+.grid1 {
+	 
+	 display: grid;
+	 grid-template-columns: 55% 30%;
+}
+
+.listhv {
+	
+	padding-top: 100px;
+}
+
+.pizza{
+ 
+  grid-column: 2 / 3;
+  width:400 px;
+  height: 400 px;
+
+}
+
+.fraseOne{
+	
+	font-size: 35px;
+	color: #102C57;
+
+}
+
+
+
+
+/* <exercises> styles */
+
+
+
+.OrgBorder{
+	width: 100%px;
+	height: fit-content;
+	border: 5px solid #102C57;
+	padding-bottom: 20px;
+}
+
+.ExBox {
+
+	width: 860px;
+	height: fit-content;
+	border: 5px solid black;
+	margin-left: 10px;
+	background-color: #EADBC8;
+	padding-top: 20px;
+}
+
+.list1 {
+	
+	color: black;
+  font-family: var(--MainFont), sans-serif;
+  font-weight: 550;	
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+	
+.DropMenuEx1{
+	font-family: var(--MainFont), sans-serif;
+	font-size: 20px;
+	color:  #102C57 ;
+  font-weight: 600;
+  background: #DAC0A3;	
+  
+
+}
+
+.InputEx1{
+
+	width: 90% ;
+	height: 60px;
+	font-family: var(--MainFont);
+	background-color: #DAC0A3;
+	color:  #102C57 ;
+	font-size: 18px;
+}
+
+
+/* <EndNav> styles */
+
+
+
+
+/* <footer> styles */
+
+
+
+footer {
+
+
+	width: 100%;
+	background: #102C57;
+	font-family: var(--MainFont);font-size: 22px;
+	font-size: 22px;
+	color: #ece7e2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+footer a{
+
+	color: #545352;
+	text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+
+
+
+
+
+
+
+/* Legacy 
+
+
+
+
+
+.ex01{
+	font-size: 25px;
+	color: black;
+	padding-top: 20px;
+	padding-right: 30px;
+	margin: 0 auto;
+	font-weight: bold;
+}
+.orgborder03{
+	width: 100%px;
+	height: fit-content;
+	border: 5px solid #102C57;
+	padding-bottom: 20px;
+
+}
+
+
+.exBox03{
+  width: 860px;
+	height: fit-content;
+	border: 5px solid black;
+	margin-left: 10px;
+	margin-top: 70px;
+	padding-bottom: 20xp;
+	background-color: #EADBC8;
+}
+
+
+
+.inputS02{
+	
+	font-family: var(--MainFont), sans-serif;
+	font-size: 20px;
+  background-color:  #d5dbdb ;
+  font-weight: 600;
+  width: 750px;
+  height: 100px;
+}
+.inputS03{
+	
+	font-family: var(--MainFont), sans-serif;
+	font-size: 20px;
+  background-color:  #d5dbdb ;
+  font-weight: 600;
+  width: 750px;
+  height: 250px;
+}
+.exBox06 {
+  
+  margin-top:50px;
+  margin-bottom:50px;
+	width: 550px;
+	height: fit-content;
+	border: 5px solid black;
+	margin-left:10px;
+	background-color: #EADBC8;
+}
+
+.tabla1C{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.tabla1{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+
+*/
