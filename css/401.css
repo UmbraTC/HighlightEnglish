@@ -307,7 +307,13 @@ footer a{
 
 
 
+.inputShort{
 
+  background-color: var(--ClearTextColor) ;
+  font-family: var(--MainFont), sans-serif;
+  width: 150px;
+  height: 18px;
+}
 
 
 
