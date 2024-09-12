@@ -314,6 +314,13 @@ footer a{
   width: 150px;
   height: 18px;
 }
+.inputMini{
+
+  background-color: var(--ClearTextColor) ;
+  font-family: var(--MainFont), sans-serif;
+  width: 35px;
+  height: 18px;
+}
 
 
 
