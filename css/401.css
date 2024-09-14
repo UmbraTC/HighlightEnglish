@@ -221,18 +221,22 @@ header {
 
 
 .OrgBorder{
+	box-sizing: border-box;
 	width: 100%px;
 	height: fit-content;
 	border: 5px solid #102C57;
 	padding-bottom: 20px;
+	
 }
 
 .ExBox {
 
+  box-sizing: border-box;
 	width: 860px;
 	height: fit-content;
 	border: 5px solid black;
 	margin-left: 10px;
+	padding-Right: 15px;
 	background-color: #EADBC8;
 	padding-top: 20px;
 }
@@ -323,7 +327,9 @@ footer a{
 }
 
 
-
+.left{
+	text-align: left;
+}
 /* Legacy 
 
 
