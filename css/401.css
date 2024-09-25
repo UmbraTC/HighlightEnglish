@@ -355,7 +355,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  color: var(--MainTextColor);
+  color: var(--MainBackgroundColor);
 }
 
 #quiz-app {
@@ -363,7 +363,7 @@ body {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: var(--MainTextColor);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -375,6 +375,7 @@ body {
 #question {
   font-size: 24px;
   margin-bottom: 10px;
+  color: var(--MainBackgroundColor);
 }
 
 .btn-grid {
@@ -385,7 +386,7 @@ body {
 
 .button {
   padding: 10px 15px;
-  background-color: #007BFF;
+  background-color: var(--MainTextColor);
   color: white;
   border: none;
   border-radius: 5px;
