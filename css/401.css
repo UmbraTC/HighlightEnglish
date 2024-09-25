@@ -355,8 +355,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: linear-gradient(to right, #6DD5FA, #2979FF);
-  color: #333;
+  color: var(--MainTextColor);
 }
 
 #quiz-app {
