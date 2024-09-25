@@ -1,84 +1,207 @@
-let quiz01 = []
+document.addEventListener('DOMContentLoaded', () => {
+  nextButton.classList.add('hide');
+});
 
-let questionsW02_01 = [
-  'Have you ever been to South America?',
-  'Have you ever taken a long trip on a boat',
-  'Have you ever forgotten a friend’s name? ',
-  'Have you ever danced cumbias? ',
-  'What’s a sport you’ve always wanted to try? '
-]
-let questionsW02_02 = [
-  'When are you outgoing? When are you shy?',
-  'Do you prefer serious or easygoing people? Why?',
-  'When are you on time? Are you ever late? ',
-  'What are people in your family like? '
-]
-c
-let questionsW02_03 = [
-  'Have you ever taken a surfing class?',
-  'Have you ever sung in front of an audience?',
-  'Have you ever seen one of the Twilight movies?',
-  'Have you ever tried a food you didn’t like?',
-  'What’s a country you’ve never been to but would like to visit? '
-]
-let questionsW02_04 = [
-  'What are young people like around here?',
-  'Is it ever OK to be selfish? When? ',
-  'When are your friends competitive?',
-  'When are you a hard worker?'
-]
-let questionsW02_05 = [
-  'Have you ever found some money?',
-  'Have you ever lost something valuable?',
-  'Have you ever been to Paris?',
-  'Have you ever been in a hospital?',
-  'What’s a subject you’ve always wanted to know more about? '
-]
-let questionsW02_06 = [
-  'What are people in your neighborhood like?',
-  'Do you learn languages easily? Or is it difficult?',
-  'Do you think most people are honest? Why orwhy not? ',
-  'How could you be more organized? '
-]
-let questionsW02_07 = [
-  'Have you ever met a famous person?',
-  'Have you ever had Russian food?',
-  'Have you ever done something embarrassing? ',
-  'Have you ever won a contest?',
-  'What’s a skill or a talent you’ve always wanted to have?'
-]
-let questionsW02_08 = [
-  'When is it important to be patient?',
-  'When is it the most important to be polite?',
-  'When are you creative?  ',
-  'What are your friends like?'
-]
-let questGen = (arrayQuest) =>{
-  for (let i = 0; i< arrayQuest.length; i++){
-    return arrayQuest[Math.floor(Math.random()*arrayQuest.length)]    
+const startButton = document.getElementById('start-btn');
+const nextButton = document.getElementById('next-btn');
+const questionContainerElement = document.getElementById('question-container');
+const questionElement = document.getElementById('question');
+const answerButtonsElement = document.getElementById('answer-buttons');
+const quizAppElement = document.getElementById('quiz-app');
+const resultsElement = document.createElement('div');
+resultsElement.setAttribute('id', 'results');
+resultsElement.classList.add('results', 'hide');
+quizAppElement.appendChild(resultsElement);
+
+let shuffledQuestions, currentQuestionIndex;
+let score = 0;
+
+startButton.addEventListener('click', startGame);
+nextButton.addEventListener('click', () => {
+  currentQuestionIndex++;
+  setNextQuestion();
+});
+
+function startGame() {
+  startButton.classList.add('hide');
+  shuffledQuestions = questions.sort(() => Math.random() - .5);
+  currentQuestionIndex = 0;
+  questionContainerElement.classList.remove('hide');
+  setNextQuestion();
+}
+
+function setNextQuestion() {
+  resetState();
+  showQuestion(shuffledQuestions[currentQuestionIndex]);
+}
+
+function resetState() {
+  clearStatusClass(document.body);
+  nextButton.classList.add('hide');
+  while (answerButtonsElement.firstChild) {
+      answerButtonsElement.removeChild(answerButtonsElement.firstChild);
   }
 }
 
-let quest01 = questGen(questionsW02_01)
-let quest02 = questGen(questionsW02_02)
-let quest03 = questGen(questionsW02_03)
-let quest04 = questGen(questionsW02_04)
+function showQuestion(question) {
+  questionElement.innerText = question.question;
+  question.answers.forEach(answer => {
+      const button = document.createElement('button');
+      button.innerText = answer.text;
+      button.classList.add('btn');
+      if (answer.correct) {
+          button.dataset.correct = answer.correct;
+      }
+      button.addEventListener('click', () => selectAnswer(button));
+      answerButtonsElement.appendChild(button);
+  });
+}
 
-quiz01.push(quest01)
-quiz01.push(quest02)
-quiz01.push(quest03)
-quiz01.push(quest04)
+function selectAnswer(selectedButton) {
+  Array.from(answerButtonsElement.children).forEach(button => {
+      button.disabled = true;
+      setStatusClass(button, button.dataset.correct);
+  });
 
-console.log(quiz01)
-let btt_Press  = function() {
-   document.getElementById('q01').innerHTML  = questGen(questionsW02_01);
-   document.getElementById('q02').innerHTML  = questGen(questionsW02_02);
-   document.getElementById('q03').innerHTML  =questGen(questionsW02_03)
-   document.getElementById('q04').innerHTML  =  questGen(questionsW02_04)
-   document.getElementById('q05').innerHTML  = questGen(questionsW02_05)
-   document.getElementById('q06').innerHTML  = questGen(questionsW02_06)
-   document.getElementById('q07').innerHTML  = questGen(questionsW02_07)
-   document.getElementById('q08').innerHTML  = questGen(questionsW02_08)
-};
+  const correct = selectedButton.dataset.correct;
+  if (correct) {
+      score++;
+  }
+  setStatusClass(selectedButton, correct);
 
-button1.addEventListener('click', btt_Press);
+  setTimeout(() => {
+      if (shuffledQuestions.length > currentQuestionIndex + 1) {
+          nextButton.classList.remove('hide');
+      } else {
+          concludeQuiz();
+      }
+  }, 1000); // Adjust delay as needed
+ 
+}
+
+function setStatusClass(element, correct) {
+  clearStatusClass(element);
+  if (correct) {
+      element.classList.add('correct');
+  } else {
+      element.classList.add('wrong');
+  }
+}
+
+function clearStatusClass(element) {
+  element.classList.remove('correct');
+  element.classList.remove('wrong');
+}
+
+function concludeQuiz() {
+  questionContainerElement.classList.add('hide');
+  nextButton.classList.add('hide');
+
+  resultsElement.classList.remove('hide');
+  resultsElement.innerHTML = `
+      <h2>Quiz Completed!</h2>
+      <p>Your score: ${score} out of ${shuffledQuestions.length}</p>
+      <button onclick="restartQuiz()">Restart Quiz</button>
+  `;
+  quizAppElement.appendChild(resultsElement);
+}
+
+function restartQuiz() {
+  resultsElement.classList.add('hide');
+  score = 0;
+  currentQuestionIndex = 0;
+  startGame();
+}
+
+const questions = [
+  {
+      question: "It’s a great movie. I have …  movie many times.",
+      answers: [
+          { text: "a) saw", correct: false },
+          { text: "b) seen ", correct: true },
+          { text: "c) see", correct: false },
+          { text: "d) none", correct: false }
+      ]
+  },
+  {
+      question: "Which of the following is used to declare a variable in JavaScript?",
+      answers: [
+          { text: "var", correct: false },
+          { text: "let", correct: false },
+          { text: "const", correct: false },
+          { text: "All of the above", correct: true }
+      ]
+  },
+  {
+      question: "What does the `===` operator check?",
+      answers: [
+          { text: "Only value equality", correct: false },
+          { text: "Only type equality", correct: false },
+          { text: "Both value and type equality", correct: true },
+          { text: "Neither value nor type equality", correct: false }
+      ]
+  },
+  {
+      question: "What is an Array in JavaScript?",
+      answers: [
+          { text: "A function that performs an operation", correct: false },
+          { text: "A single variable used to store different elements", correct: true },
+          { text: "A series of characters", correct: false },
+          { text: "A conditional statement", correct: false }
+      ]
+  },
+  {
+      question: "Which method can add one or more elements to the end of an array?",
+      answers: [
+          { text: "array.unshift()", correct: false },
+          { text: "array.push()", correct: true },
+          { text: "array.pop()", correct: false },
+          { text: "array.slice()", correct: false }
+      ]
+  },
+  {
+      question: "How do you create a function in JavaScript?",
+      answers: [
+          { text: "function myFunction()", correct: true },
+          { text: "create myFunction()", correct: false },
+          { text: "function: myFunction()", correct: false },
+          { text: "function = myFunction()", correct: false }
+      ]
+  },
+  {
+      question: "Which statement is used to execute actions based on a condition?",
+      answers: [
+          { text: "for", correct: false },
+          { text: "while", correct: false },
+          { text: "if", correct: true },
+          { text: "switch", correct: false }
+      ]
+  },
+  {
+      question: "What is the purpose of a loop in JavaScript?",
+      answers: [
+          { text: "To perform a single action once", correct: false },
+          { text: "To store multiple values in a single variable", correct: false },
+          { text: "To execute a block of code a number of times", correct: true },
+          { text: "To speed up code execution", correct: false }
+      ]
+  },
+  {
+      question: "Which object is the top-level object in a browser environment?",
+      answers: [
+          { text: "Document", correct: false },
+          { text: "Window", correct: true },
+          { text: "Console", correct: false },
+          { text: "Navigator", correct: false }
+      ]
+  },
+  {
+      question: "What is the correct syntax for referring to an external script called `app.js`?",
+      answers: [
+          { text: "<script href='app.js'>", correct: false },
+          { text: "<script source='app.js'>", correct: false },
+          { text: "<script src='app.js'>", correct: true },
+          { text: "<script link='app.js'>", correct: false }
+      ]
+  }
+];
