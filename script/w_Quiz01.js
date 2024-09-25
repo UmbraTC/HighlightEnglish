@@ -115,7 +115,7 @@ function restartQuiz() {
 
 const questions = [
   {
-      question: "It’s a great movie. I have …  movie many times.",
+      question: "It’s a great movie. I have … that movie many times.",
       answers: [
           { text: "a) saw", correct: false },
           { text: "b) seen ", correct: true },
@@ -124,84 +124,84 @@ const questions = [
       ]
   },
   {
-      question: "Which of the following is used to declare a variable in JavaScript?",
+      question: "Have you … really strange or  interesting food?",
       answers: [
-          { text: "var", correct: false },
-          { text: "let", correct: false },
-          { text: "const", correct: false },
-          { text: "All of the above", correct: true }
+          { text: "ever eaten", correct: true },
+          { text: "eat", correct: false },
+          { text: "even ate", correct: false },
+          { text: "never eaten ", correct: false }
       ]
   },
   {
-      question: "What does the `===` operator check?",
+      question: "(A) … your brother talked to you yet? _____________  (B) Yes, he ….",
       answers: [
-          { text: "Only value equality", correct: false },
-          { text: "Only type equality", correct: false },
-          { text: "Both value and type equality", correct: true },
-          { text: "Neither value nor type equality", correct: false }
+          { text: "Has / did", correct: false },
+          { text: "did / has", correct: false },
+          { text: "Has / has ", correct: true },
+          { text: "have / have", correct: false }
       ]
   },
   {
-      question: "What is an Array in JavaScript?",
+      question: "My family and I … to many different countries around the world.",
       answers: [
-          { text: "A function that performs an operation", correct: false },
-          { text: "A single variable used to store different elements", correct: true },
-          { text: "A series of characters", correct: false },
-          { text: "A conditional statement", correct: false }
+          { text: "did fly", correct: false },
+          { text: "have flown ", correct: true },
+          { text: "has flown", correct: false },
+          { text: "flown", correct: false }
       ]
   },
   {
-      question: "Which method can add one or more elements to the end of an array?",
+      question: "My sister … ridden a bicycle. She is afraid that she will fall off.",
       answers: [
-          { text: "array.unshift()", correct: false },
-          { text: "array.push()", correct: true },
-          { text: "array.pop()", correct: false },
-          { text: "array.slice()", correct: false }
+          { text: "never ", correct: false },
+          { text: "has never", correct: true },
+          { text: "did ever", correct: false },
+          { text: "has ever ", correct: false }
       ]
   },
   {
-      question: "How do you create a function in JavaScript?",
+      question: "I’m sorry, but I … finished my homework yet.",
       answers: [
-          { text: "function myFunction()", correct: true },
-          { text: "create myFunction()", correct: false },
-          { text: "function: myFunction()", correct: false },
-          { text: "function = myFunction()", correct: false }
+          { text: "haven’t", correct: true },
+          { text: "hasn’t", correct: false },
+          { text: "have", correct: false },
+          { text: "did", correct: false }
       ]
   },
   {
-      question: "Which statement is used to execute actions based on a condition?",
+      question: "Eva, Thomas, and Robert … Hong Kong many times.",
       answers: [
-          { text: "for", correct: false },
-          { text: "while", correct: false },
-          { text: "if", correct: true },
-          { text: "switch", correct: false }
+          { text: "been to", correct: false },
+          { text: "do been to", correct: false },
+          { text: "have been to", correct: true },
+          { text: "have been", correct: false }
       ]
   },
   {
-      question: "What is the purpose of a loop in JavaScript?",
+      question: "Have you finished answering all the questions …?",
       answers: [
-          { text: "To perform a single action once", correct: false },
-          { text: "To store multiple values in a single variable", correct: false },
-          { text: "To execute a block of code a number of times", correct: true },
-          { text: "To speed up code execution", correct: false }
+          { text: "never", correct: false },
+          { text: "ever", correct: false },
+          { text: "yet", correct: true },
+          { text: "to", correct: false }
       ]
   },
   {
-      question: "Which object is the top-level object in a browser environment?",
+      question: "She has a car, so she … there many times.",
       answers: [
-          { text: "Document", correct: false },
-          { text: "Window", correct: true },
-          { text: "Console", correct: false },
-          { text: "Navigator", correct: false }
+          { text: "did drove", correct: false },
+          { text: "has driven", correct: true },
+          { text: "have drive", correct: false },
+          { text: "has drove", correct: false }
       ]
   },
   {
-      question: "What is the correct syntax for referring to an external script called `app.js`?",
+      question: "I’ve cleaned the kitchen, but I … the living room yet.",
       answers: [
-          { text: "<script href='app.js'>", correct: false },
-          { text: "<script source='app.js'>", correct: false },
-          { text: "<script src='app.js'>", correct: true },
-          { text: "<script link='app.js'>", correct: false }
+          { text: "have cleaned", correct: false },
+          { text: "haven’t clean", correct: false },
+          { text: "haven’t cleaned", correct: true },
+          { text: "did cleaned", correct: false }
       ]
   }
 ];
