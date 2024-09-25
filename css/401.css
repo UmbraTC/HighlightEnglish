@@ -409,7 +409,7 @@ body {
 
 #start-btn, #next-btn {
   padding: 10px 20px;
-  background-color: #28A745;
+  background-color: var(--MainHighlightColor);
   color: white;
   border: none;
   border-radius: 5px;
@@ -417,7 +417,7 @@ body {
 }
 
 #start-btn:hover, #next-btn:hover {
-  background-color: #218838;
+  background-color: var(--MainHighlightColor);
 }
 
 .hide {
@@ -432,6 +432,9 @@ body {
 .wrong {
   background-color: #dc3545; /* Red color for incorrect answers */
   color: white;
+}
+#results{
+	color: var(--MainBackgroundColor) ;
 }
 /* Legacy 
 
