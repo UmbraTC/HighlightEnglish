@@ -347,7 +347,7 @@ font-size: 35px;
 
 // wq
 
-body {
+#body {
   font-family:  var(--MainFont);
   display: flex;
   flex-direction: column;
