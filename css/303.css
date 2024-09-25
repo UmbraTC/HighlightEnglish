@@ -285,3 +285,8 @@ height: 400 px;
   justify-content: center;
 }
 
+// js code
+
+#quiz {
+list-style-type: square;
+}

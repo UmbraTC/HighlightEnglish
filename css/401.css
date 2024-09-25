@@ -330,6 +330,15 @@ footer a{
 .left{
 	text-align: left;
 }
+
+// js code
+
+#quiz {
+list-style-type: square;
+font-size: 35px;
+ font-family: var(--MainFont);
+ color: var(--MainTextColor);
+}
 /* Legacy 
 
 
