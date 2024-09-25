@@ -262,7 +262,7 @@ header {
   background: #DAC0A3;	
   
 
-}
+};
 
 .InputEx1{
 
@@ -272,7 +272,7 @@ header {
 	background-color: #DAC0A3;
 	color:  #102C57 ;
 	font-size: 18px;
-}
+};
 
 
 /* <EndNav> styles */
@@ -300,7 +300,7 @@ footer {
                 1px -1px 0 #000,
                 -1px -1px 0 #000;
 
-}
+};
 footer a{
 
 	color: #545352;
@@ -309,7 +309,7 @@ footer a{
                 1px -1px 0 #000,
                 -1px -1px 0 #000;
 
-}
+};
 
 
 
@@ -319,19 +319,19 @@ footer a{
   font-family: var(--MainFont), sans-serif;
   width: 150px;
   height: 18px;
-}
+};
 .inputMini{
 
   background-color: var(--ClearTextColor) ;
   font-family: var(--MainFont), sans-serif;
   width: 35px;
   height: 18px;
-}
+};
 
 
 .left{
 	text-align: left;
-}
+};
 
 // js code
 
@@ -340,7 +340,7 @@ list-style-type: square;
 font-size: 35px;
  font-family: var(--MainFont);
  color: var(--MainTextColor);
-}
+};
 
 
 
@@ -356,7 +356,7 @@ body {
   height: 100vh;
   margin: 0;
   color: var(--MainBackgroundColor);
-}
+};
 
 #quiz-app {
   width: 90%;
@@ -370,7 +370,7 @@ body {
                                1px 1px 0 #000,
                                1px -1px 0 #000,
                               -1px -1px 0 #000;
-}
+};
 
 #question-container {
   margin-bottom: 20px;
@@ -380,13 +380,13 @@ body {
   font-size: 24px;
   margin-bottom: 10px;
   color: var(--MainBackgroundColor);
-}
+};
 
 .btn-grid {
   display: grid;
   grid-template-columns: repeat(2, auto);
   gap: 10px;
-}
+};
 
 .button {
   padding: 10px 15px;
@@ -396,20 +396,20 @@ body {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-}
+};
 
 .button:hover {
   background-color: #0056b3;
-}
+};
 
 #controls {
   justify-content: center;
   margin-top: 20px;
-}
+};
 
 #controls.show {
   display: flex;
-}
+};
 
 #start-btn, #next-btn {
   padding: 10px 20px;
@@ -418,28 +418,28 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
+};
 
 #start-btn:hover, #next-btn:hover {
   background-color: var(--MainHighlightColor);
-}
+};
 
 .hide {
   display: none;
-}
+};
 
 .correct {
   background-color: #28a745; /* Green color for correct answers */
   color: white;
-}
+};
 
 .wrong {
   background-color: #dc3545; /* Red color for incorrect answers */
   color: white;
-}
+};
 #results{
 	color: var(--MainBackgroundColor) ;
-}
+};
 /* Legacy 
 
 
