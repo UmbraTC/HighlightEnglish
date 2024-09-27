@@ -53,22 +53,12 @@ let questionsW02_08 = [
   'When are you creative?  ',
   'What are your friends like?'
 ]
+
 let questGen = (arrayQuest) =>{
   for (let i = 0; i< arrayQuest.length; i++){
     return arrayQuest[Math.floor(Math.random()*arrayQuest.length)]    
   }
 }
-
-let quest01 = questGen(questionsW02_01)
-let quest02 = questGen(questionsW02_02)
-let quest03 = questGen(questionsW02_03)
-let quest04 = questGen(questionsW02_04)
-
-quiz01.push(quest01)
-quiz01.push(quest02)
-quiz01.push(quest03)
-quiz01.push(quest04)
-
 
 let btt_Press  = function() {
    document.getElementById('q01').innerHTML  = questGen(questionsW02_01);
