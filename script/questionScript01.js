@@ -69,7 +69,7 @@ quiz01.push(quest02)
 quiz01.push(quest03)
 quiz01.push(quest04)
 
-console.log(quiz01)
+
 let btt_Press  = function() {
    document.getElementById('q01').innerHTML  = questGen(questionsW02_01);
    document.getElementById('q02').innerHTML  = questGen(questionsW02_02);
