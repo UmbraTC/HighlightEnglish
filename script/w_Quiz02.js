@@ -133,12 +133,12 @@ const questions = [
       ]
   },
   {
-      question: "(A) … your brother talked to you yet? _____________  (B) Yes, he ….",
+      question: "That restaurant … restaurant in our town",
       answers: [
-          { text: "Has / did", correct: false },
-          { text: "did / has", correct: false },
-          { text: "Has / has ", correct: true },
-          { text: "have / have", correct: false }
+          { text: "worst", correct: false },
+          { text: "is the baddest ", correct: false },
+          { text: "is the worst", correct: true },
+          { text: "is bad ", correct: false }
       ]
   },
   {
@@ -202,6 +202,15 @@ const questions = [
           { text: "is interested", correct: false },
           { text: "are the most interesting", correct: true },
           { text: "are interested", correct: false }
+      ]
+  },
+  {
+      question: "Did you know that crossing a busy street is … flying in an airplane?",
+      answers: [
+          { text: "most dangerous than", correct: false },
+          { text: "the more dangerous", correct: false },
+          { text: "more dangerous than ", correct: true },
+          { text: " the most dangerous than", correct: false }
       ]
   }
 ];
