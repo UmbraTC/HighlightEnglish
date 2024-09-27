@@ -214,3 +214,21 @@ const questions = [
       ]
   }
 ];
+{
+      question: "People didn’t ...  have TV",
+      answers: [
+          { text: "used to", correct: false },
+          { text: "used", correct: false },
+          { text: "use to ", correct: true },
+          { text: " have to", correct: false }
+      ]
+  }
+{
+      question: "I ...  study Japanese ",
+      answers: [
+          { text: "use to", correct: false },
+          { text: "used", correct: false },
+          { text: "useD to ", correct: true },
+          { text: " have to", correct: false }
+      ]
+  };
