@@ -117,10 +117,10 @@ const questions = [
   {
       question: "Russia is … country in the world.",
       answers: [
-          { text: "a) big", correct: false },
-          { text: "b) he biggest  ", correct: true },
-          { text: "c) bigger", correct: false },
-          { text: "d) the bigest", correct: false }
+          { text: " big", correct: false },
+          { text: "the biggest  ", correct: true },
+          { text: " bigger", correct: false },
+          { text: "the bigest", correct: false }
       ]
   },
   {
