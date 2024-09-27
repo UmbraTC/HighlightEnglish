@@ -1,3 +1,6 @@
+
+// Works with any list: 
+
 let quiz01 = []
 
 let questionsW02_01 = [
@@ -54,11 +57,15 @@ let questionsW02_08 = [
   'What are your friends like?'
 ]
 
+// iterador  + callBack function 
+
 let questGen = (arrayQuest) =>{
   for (let i = 0; i< arrayQuest.length; i++){
     return arrayQuest[Math.floor(Math.random()*arrayQuest.length)]    
   }
 }
+
+// html link
 
 let btt_Press  = function() {
    document.getElementById('q01').innerHTML  = questGen(questionsW02_01);
@@ -71,4 +78,5 @@ let btt_Press  = function() {
    document.getElementById('q08').innerHTML  = questGen(questionsW02_08)
 };
 
+// event listener 
 button1.addEventListener('click', btt_Press);
