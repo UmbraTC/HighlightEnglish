@@ -226,7 +226,7 @@ const questions = [
       answers: [
           { text: "use to", correct: false },
           { text: "used", correct: false },
-          { text: "useD to ", correct: true },
+          { text: "used to ", correct: true },
           { text: " have to", correct: false }
       ]
   }
