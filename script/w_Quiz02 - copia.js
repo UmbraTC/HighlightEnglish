@@ -112,6 +112,7 @@ function restartQuiz() {
   currentQuestionIndex = 0;
   startGame();
 }
+
 const questions = [
   {
       question: "Russia is … country in the world.",
@@ -211,7 +212,8 @@ const questions = [
           { text: "more dangerous than ", correct: true },
           { text: " the most dangerous than", correct: false }
       ]
-  },
+  }
+];
 {
       question: "People didn’t ...  have TV",
       answers: [
@@ -220,7 +222,7 @@ const questions = [
           { text: "use to ", correct: true },
           { text: " have to", correct: false }
       ]
-  },
+  }
 {
       question: "I ...  study Japanese ",
       answers: [
@@ -229,5 +231,4 @@ const questions = [
           { text: "useD to ", correct: true },
           { text: " have to", correct: false }
       ]
-  }
-  ]
+  };
