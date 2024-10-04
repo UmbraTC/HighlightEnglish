@@ -1,6 +1,9 @@
 // free_code_camp to react
 
-ReactDOM.render(
-    <ul><li>Thing 1</li><li>Thing 2</li></ul>,
-    document.getElementById("root")
+const page = (
+    <div>
+        <h1> Umbra the cat </h1>
+  </div>
 )
+
+ReactDOM.render(page, document.getElementById('root'))
