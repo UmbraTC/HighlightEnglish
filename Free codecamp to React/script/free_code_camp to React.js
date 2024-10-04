@@ -3,6 +3,11 @@
 const page = (
     <div>
         <h1> Umbra the cat </h1>
+        <ul>
+        <li>Michi</li>
+        <li>Magic cat</li>
+        <li>Pet owner owner</li>
+        </ul>
   </div>
 )
 
