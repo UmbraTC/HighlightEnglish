@@ -2,9 +2,9 @@
 
 const page = (
     <div>
-        <h1> Umbra the cat </h1>
+        <h1> Umbra the Michi</h1>
         <ul>
-        <li>Michi</li>
+        <li>Cat</li>
         <li>Magic cat</li>
         <li>Pet owner owner</li>
         </ul>
