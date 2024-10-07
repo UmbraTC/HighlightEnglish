@@ -4,7 +4,7 @@ const page = (
     <div>
         <h1> Umbra the wonderful cat</h1>
         <ul>
-        <li>Michi</li>
+        <li>Pet</li>
         <li>Magic cat</li>
         <li>Pet owner owner</li>
         </ul>
