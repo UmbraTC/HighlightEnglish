@@ -1,0 +1,582 @@
+/* Main variables */
+
+
+:root {
+
+  --MainTextColor : #102C57;
+  --ClearTextColor :#DAC0A3 ;
+  --MainBackgroundColor : #FEFAF6;
+  --MainBlockColor: #102C57;
+  --MainHighlightColor: #e0a462;
+
+  --MainFont: 'Alice';
+}
+
+html {
+   
+  font-family: var(--MainFont);
+  font-size: 22px;
+  font-weight: 500;
+  background-color: var(--MainBackgroundColor);
+
+} 
+
+h1 {        
+
+    font-family: var(--MainFont);
+    font-size: 50px;
+  color: var(--ClearTextColor);
+} 
+
+h2 {
+
+    font-size: 35px;
+    color: var(--ClearTextColor);
+    padding-top: 40px;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
+h3 {
+
+    font-size: 35px;
+    color: var(--MainTextColor);
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+
+h4 {
+
+    font-size: 35px;
+    color: var(--ClearTextColor);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    
+}
+
+h5 {
+    
+    max-width:120px ;
+    background-color: orange;
+    color: var(--ClearTextColor);
+    font-family: var(--MainFont) , sans-serif;
+    font-weight: 100;   
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 60px;
+    text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+    
+h6 {
+
+    font-size: 35px;
+    color: var(--MainTextColor);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    
+}
+
+a {
+    
+    font-size: 35px;
+    color: var(--MainTextColor);
+}
+
+a:hover { 
+  
+  color:#e0a462; 
+}
+
+p {
+    
+    text-align: center;
+}
+
+label{
+    padding-left: 45px;
+}
+
+
+
+
+/* <body> styles */
+
+
+
+
+body {
+
+  width: 900px;
+  margin: 0 auto;  
+  padding: 0 20px 20px 20px;
+  
+}
+
+
+
+
+/* <header> styles */
+
+
+
+header {
+    font-size: 35px;
+    font-family: var(--MainFont);
+    color: #DAC0A3;
+    padding-top: 0px;   
+    margin: 0 auto;
+    text-shadow: -1px  1px 0 #000,
+                  1px  1px 0 #000,
+                  1px -1px 0 #000,
+                 -1px -1px 0 #000;
+  background-color: var(--MainTextColor);
+  position: relative;
+  align-content: center;
+  height: 80px;
+}
+
+
+
+
+
+/* <nav> styles */
+ 
+ .drpmenuN01{
+    font-family: var(--MainFont), sans-serif;
+    font-size: 30px;
+    color:  #DAC0A3 ;
+  font-weight: 600;
+  background: #102C57;  
+  text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+
+
+
+/* <main> styles */
+
+
+
+
+/* <introduction> styles */
+
+
+
+.title-box {
+    
+    background: var(--MainTextColor);
+    text-shadow: -1px  1px 0 #000,
+                1px  1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+    width: 100%;
+    padding-right:15px ;
+     box-sizing: border-box;
+}
+
+.grid1 {
+     
+     display: grid;
+     grid-template-columns: 55% 30%;
+}
+
+.listhv {
+    
+    padding-top: 100px;
+}
+
+.pizza{
+ 
+  grid-column: 2 / 3;
+  width:400 px;
+  height: 400 px;
+
+}
+
+.fraseOne{
+    
+    font-size: 35px;
+    color: #102C57;
+
+}
+
+
+
+
+/* <exercises> styles */
+
+
+
+.OrgBorder{
+    box-sizing: border-box;
+    width: 100%px;
+    height: fit-content;
+    border: 5px solid #102C57;
+    padding-bottom: 20px;
+    
+}
+
+.ExBox {
+
+  box-sizing: border-box;
+    width: 860px;
+    height: fit-content;
+    border: 5px solid black;
+    margin-left: 10px;
+    padding-Right: 15px;
+    background-color: #EADBC8;
+    padding-top: 20px;
+}
+
+.list1 {
+    
+    color: black;
+  font-family: var(--MainFont), sans-serif;
+  font-weight: 550; 
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+    
+.DropMenuEx1{
+    font-family: var(--MainFont), sans-serif;
+    font-size: 20px;
+    color:  #102C57 ;
+  font-weight: 600;
+  background: #DAC0A3;  
+  
+
+}
+
+.InputEx1{
+
+    width: 90% ;
+    height: 60px;
+    font-family: var(--MainFont);
+    background-color: #DAC0A3;
+    color:  #102C57 ;
+    font-size: 18px;
+}
+
+
+/* <EndNav> styles */
+
+
+
+
+/* <footer> styles */
+
+
+
+footer {
+
+
+    width: 100%;
+    background: #102C57;
+    font-family: var(--MainFont);font-size: 22px;
+    font-size: 22px;
+    color: #ece7e2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+footer a{
+
+    color: #545352;
+    text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+
+}
+
+
+
+.inputShort{
+
+  background-color: var(--ClearTextColor) ;
+  font-family: var(--MainFont), sans-serif;
+  width: 150px;
+  height: 18px;
+}
+.inputMini{
+
+  background-color: var(--ClearTextColor) ;
+  font-family: var(--MainFont), sans-serif;
+  width: 35px;
+  height: 18px;
+}
+
+
+.left{
+    text-align: left;
+}
+
+// js code
+
+#quiz {
+list-style-type: square;
+font-size: 35px;
+ font-family: var(--MainFont);
+ color: var(--MainTextColor);
+}
+
+
+
+
+// wq
+
+#body {
+  font-family:  var(--MainFont);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: var(--MainBackgroundColor);
+}
+
+#quiz-app {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--MainTextColor);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-shadow: -1px 1px 0 #000,
+                               1px 1px 0 #000,
+                               1px -1px 0 #000,
+                -1px -1px 0 #000;
+}
+
+#question-container {
+  margin-bottom: 20px;
+}
+
+#question {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: var(--MainBackgroundColor);
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: var(--MainTextColor);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+#controls {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#controls.show {
+  display: flex;
+}
+
+#start-btn, #next-btn {
+  padding: 10px 20px;
+  background-color: var(--MainHighlightColor);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#start-btn:hover, #next-btn:hover {
+  background-color: var(--MainHighlightColor);
+}
+
+.hide {
+  display: none;
+}
+
+.correct {
+  background-color: #28a745; /* Green color for correct answers */
+  color: white;
+}
+
+.wrong {
+  background-color: #dc3545; /* Red color for incorrect answers */
+  color: white;
+}
+#results{
+    color: var(--MainBackgroundColor) ;
+}
+
+
+
+
+
+//  new
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+</style>
+</head>
+<body style="background-color:white;">
+
+/* Legacy 
+
+
+
+
+
+.ex01{
+    font-size: 25px;
+    color: black;
+    padding-top: 20px;
+    padding-right: 30px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.orgborder03{
+    width: 100%px;
+    height: fit-content;
+    border: 5px solid #102C57;
+    padding-bottom: 20px;
+
+}
+
+
+.exBox03{
+  width: 860px;
+    height: fit-content;
+    border: 5px solid black;
+    margin-left: 10px;
+    margin-top: 70px;
+    padding-bottom: 20xp;
+    background-color: #EADBC8;
+}
+
+
+
+.inputS02{
+    
+    font-family: var(--MainFont), sans-serif;
+    font-size: 20px;
+  background-color:  #d5dbdb ;
+  font-weight: 600;
+  width: 750px;
+  height: 100px;
+}
+.inputS03{
+    
+    font-family: var(--MainFont), sans-serif;
+    font-size: 20px;
+  background-color:  #d5dbdb ;
+  font-weight: 600;
+  width: 750px;
+  height: 250px;
+}
+.exBox06 {
+  
+  margin-top:50px;
+  margin-bottom:50px;
+    width: 550px;
+    height: fit-content;
+    border: 5px solid black;
+    margin-left:10px;
+    background-color: #EADBC8;
+}
+
+.tabla1C{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.tabla1{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+
+*/
