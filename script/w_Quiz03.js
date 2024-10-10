@@ -115,120 +115,102 @@ function restartQuiz() {
 
 const questions = [
   {
-      question: "Russia is … country in the world.",
+      question: "How … apples are there on the table?",
       answers: [
-          { text: " big", correct: false },
-          { text: "the biggest  ", correct: true },
-          { text: " bigger", correct: false },
-          { text: "the bigest", correct: false }
+          { text: " much", correct: false },
+          { text: "many ", correct: true },
+          { text: " few", correct: false },
+          { text: "lot", correct: false }
       ]
   },
   {
-      question: "Australia is big, but Canada is … Australia",
+      question: "I want to buy a new sports car, but I only have … money.",
       answers: [
-          { text: "bigger than", correct: true },
-          { text: "biggest", correct: false },
-          { text: "biggest than", correct: false },
-          { text: "big ", correct: false }
+          { text: "a little", correct: true },
+          { text: "many", correct: false },
+          { text: "a few", correct: false },
+          { text: "much ", correct: false }
       ]
   },
   {
-      question: "That restaurant … restaurant in our town",
+      question: "There are … people waiting outside the theater. ",
       answers: [
-          { text: "worst", correct: false },
-          { text: "is the baddest ", correct: false },
-          { text: "is the worst", correct: true },
-          { text: "is bad ", correct: false }
+          { text: "much", correct: false },
+          { text: "fews", correct: false },
+          { text: "many", correct: true },
+          { text: "lot", correct: false }
       ]
   },
   {
-      question: "David … person in our English  class.",
+      question: "I have … friends who live in other countries.",
       answers: [
-          { text: "the most tall", correct: false },
-          { text: "is the tallest ", correct: true },
-          { text: "has the most tall", correct: false },
-          { text: "the most tallest", correct: false }
+          { text: "much", correct: false },
+          { text: "many", correct: true },
+          { text: "lots of", correct: true },
+          { text: "fews of", correct: false }
       ]
   },
   {
-      question: "Asian elephants are heavy, but African elephants are even ….",
+      question: "How … sugar did you buy at the supermarket",
       answers: [
-          { text: "heavy ", correct: false },
-          { text: "heavier", correct: true },
-          { text: "heavier  than", correct: false },
-          { text: "heaviest than ", correct: false }
+          { text: "more than ", correct: false },
+          { text: "much", correct: true },
+          { text: "many", correct: false },
+          { text: "few", correct: false }
       ]
   },
   {
-      question: "We never watch that TV program. It’s … program on TV!.",
+      question: "Sam ... lunch at the cafeteria tomorrow",
       answers: [
-          { text: "the most boring", correct: true },
-          { text: "the boringest", correct: false },
-          { text: "the more boring", correct: false },
-          { text: "more boring than", correct: false }
+          { text: "is having", correct: true },
+          { text: "has", correct: false },
+          { text: "had", correct: false },
+          { text: "had have", correct: false }
       ]
   },
   {
-      question: "That … road in the entire country!.",
+      question: "Mrs. Perkins ... her students a test in a few days.",
       answers: [
-          { text: "most danger", correct: false },
-          { text: "do been dangerous", correct: false },
-          { text: "is the most dangerous", correct: true },
-          { text: "most dangerous ", correct: false }
+          { text: "gave", correct: false },
+          { text: "have given", correct: false },
+          { text: "is giving", correct: true },
+          { text: "gives ", correct: false }
       ]
   },
   {
-      question: "Have you finished answering all the questions …?",
+      question: "Hurry! The train ... in ten minutes",
       answers: [
-          { text: "never", correct: false },
-          { text: "ever", correct: false },
-          { text: "yet", correct: true },
-          { text: "to", correct: false }
+          { text: "left", correct: false },
+          { text: "gone", correct: false },
+          { text: "is leaving", correct: true },
+          { text: "leave", correct: true }
       ]
   },
   {
-      question: "Reading a book with a nice, hot cup of tea  … than doing exercise.",
+      question: "Tomorrow is Saturday! I ... late!",
       answers: [
-          { text: "is the most relaxing", correct: false },
-          { text: "is more relaxing", correct: true },
-          { text: "relaxing the most " , correct: false },
-          { text: "more relaxing", correct: false }
+          { text: "slept", correct: false },
+          { text: "am sleeping", correct: true },
+          { text: "sleeps" , correct: false },
+          { text: "will sleep", correct: true }
       ]
   },
   {
-      question: "Noel and David … people that I know",
+      question: "Sally, turn off the TV! We ... dinner soon",
       answers: [
-          { text: "is the most interesting", correct: false },
-          { text: "is interested", correct: false },
-          { text: "are the most interesting", correct: true },
-          { text: "are interested", correct: false }
+          { text: "eat", correct: false },
+          { text: "ate", correct: false },
+          { text: "are eating", correct: true },
+          { text: "had eaten", correct: false }
       ]
   },
   {
-      question: "Did you know that crossing a busy street is … flying in an airplane?",
+      question: "No, we ...  a meeting today. It’s at three o’clock tomorrow",
       answers: [
-          { text: "most dangerous than", correct: false },
-          { text: "the more dangerous", correct: false },
-          { text: "more dangerous than ", correct: true },
-          { text: " the most dangerous than", correct: false }
+          { text: "had", correct: false },
+          { text: "are having", correct: false },
+          { text: "are not having", correct: true },
+          { text: " had have", correct: false }
       ]
   }
-];
-{
-      question: "People didn’t ...  have TV",
-      answers: [
-          { text: "used to", correct: false },
-          { text: "used", correct: false },
-          { text: "use to ", correct: true },
-          { text: " have to", correct: false }
-      ]
-  }
-{
-      question: "I ...  study Japanese ",
-      answers: [
-          { text: "use to", correct: false },
-          { text: "used", correct: false },
-          { text: "useD to ", correct: true },
-          { text: " have to", correct: false }
-      ]
-  };
+]
