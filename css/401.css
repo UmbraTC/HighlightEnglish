@@ -131,6 +131,16 @@ body {
 
 
 
+.header-box{
+	
+	background: #102C57;
+		text-shadow: -1px  1px 0 #000,
+                  1px  1px 0 #000,
+                  1px -1px 0 #000,
+                 -1px -1px 0 #000;
+	width: 100%;
+}
+
 header {
 	font-size: 35px;
 	font-family: var(--MainFont);
