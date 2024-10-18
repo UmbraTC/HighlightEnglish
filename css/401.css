@@ -130,7 +130,9 @@ body {
 /* <header> styles */
 
 
-
+.menuLine{
+	height: 7px;
+}
 .header-box{
 	
 	background: #102C57;
