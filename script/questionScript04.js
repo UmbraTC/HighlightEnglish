@@ -17,23 +17,23 @@ let questionsW02_02 = [
 ]
 
 let questionsW02_03 = [
-  'What foods can improve your mood?',
-  ' How many fruits and vegetables should you eat every day?',
-  ' How much fast food do you eat? ',
-  'Do you like (baked / mashed / . . . ) potatoes?'
+  'Do you know someone who has a lot in common with you?',
+  ' What is the season of the year that you like the most?',
+  ' Is there any sport that you would like to practice in the future? ',
+  'What is something that reminds you of your school'
   ]
 
 let questionsW02_04 = [
   ' What’s a good age to settle down? ',
   ' What’s the best way to break up with someone you’ve dated for a long time? ',
   ' How do you keep in touch with your old friends?',
-  'Do you have any friends who are much older or younger than you? '
+  ' Do you have any friends who are much older or younger than you? '
 ]
 let questionsW02_05 = [
-  'What foods should people avoid?',
-  ' Do you think green tea is good for your health?',
-  'Do you usually have enough time to cook dinner? What do you make? ',
-  ' Do you like (smoked / fried / . . . ) fish?'
+  'Is there someone in your family who always make you laught?',
+  ' What is the place that you like most?',
+  ' Was there any school subject that was difficult for you? ',
+  'What is the month that you enjoy the most? Why? '
 ]
 let questionsW02_06 = [
   ' Are you still friends with anyone you grew up with? Who? ',
@@ -42,10 +42,10 @@ let questionsW02_06 = [
   'Do you think a long-distance relationship can work out? Why or why not? '
 ]
 let questionsW02_07 = [
-  'How can you lose weight quickly? Is it healthy?',
-  'How much cheese and other milk products should you eat? ',
-  ' Do you ever eat too much? When?',
-  'Do you like (steamed / stir-fried / . . . ) vegetables? '
+  'Is there something that you often forget to do?',
+  'What is the shore that you dislike the most? Why? ',
+  ' Is there any movie character that reminds you of someone?',
+  ' What is the holyday destination that you would always remember ? Why? '
 ]
 let questionsW02_08 = [
   'What do you usually do with your friends on the weekends?',
