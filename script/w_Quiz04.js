@@ -160,57 +160,93 @@ const questions = [
       ]
   },
   {
-      question: "Sam ... lunch at the cafeteria tomorrow",
+      question: "That's the shop ... I bought those shoes.",
       answers: [
-          { text: "is having", correct: true },
-          { text: "has", correct: false },
-          { text: "had", correct: false },
-          { text: "had have", correct: false }
+          { text: "where", correct: true },
+          { text: "who", correct: false },
+          { text: "where he", correct: false },
+          { text: "that", correct: false }
       ]
   },
   {
-      question: "Mrs. Perkins ... her students a test in a few days.",
+      question: "I can't find the CD ... I borrowed from you.",
       answers: [
-          { text: "gave", correct: false },
-          { text: "have given", correct: false },
-          { text: "is giving", correct: true },
-          { text: "gives ", correct: false }
+          { text: "what", correct: false },
+          { text: "who", correct: false },
+          { text: "that", correct: true },
+          { text: "that is ", correct: false }
       ]
   },
   {
-      question: "Hurry! The train ... in ten minutes",
+      question: "Do you remember the park ...  we met?",
       answers: [
-          { text: "left", correct: false },
-          { text: "gone", correct: false },
-          { text: "is leaving", correct: true },
-          { text: "leave", correct: true }
+          { text: "which", correct: false },
+          { text: "who", correct: false },
+          { text: "where", correct: true },
+          { text: "that", correct: false }
       ]
   },
   {
-      question: "Tomorrow is Saturday! I ... late!",
+      question: "There were three people at the party ... knew me.",
       answers: [
-          { text: "slept", correct: false },
-          { text: "am sleeping", correct: true },
-          { text: "sleeps" , correct: false },
-          { text: "will sleep", correct: true }
+          { text: "that who", correct: false },
+          { text: "which", correct: false },
+          { text: "that they" , correct: false },
+          { text: "who", correct: true }
       ]
   },
   {
-      question: "Sally, turn off the TV! We ... dinner soon",
+      question: "This is the computer ...  I bought from my friend.",
       answers: [
-          { text: "eat", correct: false },
-          { text: "ate", correct: false },
-          { text: "are eating", correct: true },
-          { text: "had eaten", correct: false }
+          { text: "what", correct: false },
+          { text: "who", correct: false },
+          { text: "which", correct: true },
+          { text: "that wich", correct: false }
       ]
   },
   {
-      question: "No, we ...  a meeting today. It’s at three o’clock tomorrow",
+      question: "The two men ... robbed the bank were wearing masks.",
       answers: [
-          { text: "had", correct: false },
-          { text: "are having", correct: false },
-          { text: "are not having", correct: true },
-          { text: " had have", correct: false }
+          { text: "that they", correct: false },
+          { text: "which", correct: false },
+          { text: "who", correct: true },
+          { text: "that wich", correct: false }
+      ]
+  },
+  {
+      question: "Working is the only thing ... makes him happy.",
+      answers: [
+          { text: "that it", correct: false },
+          { text: "who", correct: false },
+          { text: "which", correct: true },
+          { text: "that wich", correct: false }
+      ]
+  },
+  {
+      question: "The police are looking for the place ... he is hiding.",
+      answers: [
+          { text: "that it", correct: false },
+          { text: "who", correct: false },
+          { text: "where", correct: true },
+          { text: "that where", correct: false }
+      ]
+  },
+  {
+      question: "I want to see the film ... everybody's talking about.",
+      answers: [
+          { text: "that it", correct: false },
+          { text: "who", correct: false },
+          { text: "which", correct: true },
+          { text: "that wich", correct: false }
+      ]
+  },
+  {
+      question: "What's the name of the man ...  lives next door?",
+      answers: [
+          { text: "that he", correct: false },
+          { text: "where", correct: false },
+          { text: "who", correct: true },
+          { text: " that who", correct: false }
       ]
   }
 ]
