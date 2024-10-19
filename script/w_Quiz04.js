@@ -124,39 +124,39 @@ const questions = [
       ]
   },
   {
-      question: "I want to buy a new sports car, but I only have … money.",
+      question: "The Internet is a place ... you can get cheap technology products.",
       answers: [
-          { text: "a little", correct: true },
-          { text: "many", correct: false },
-          { text: "a few", correct: false },
-          { text: "much ", correct: false }
+          { text: "where", correct: true },
+          { text: "that", correct: false },
+          { text: "which", correct: false },
+          { text: "who ", correct: false }
       ]
   },
   {
-      question: "There are … people waiting outside the theater. ",
+      question: 'E-mails ... advertise things are called "spam"',
       answers: [
-          { text: "much", correct: false },
-          { text: "fews", correct: false },
-          { text: "many", correct: true },
-          { text: "lot", correct: false }
+          { text: "that", correct: true },
+          { text: "who", correct: false },
+          { text: "which", correct: true },
+          { text: "where", correct: false }
       ]
   },
   {
-      question: "I have … friends who live in other countries.",
+      question: 'A "technophobe" is someone  … is scared of technology.',
       answers: [
-          { text: "much", correct: false },
-          { text: "many", correct: true },
-          { text: "lots of", correct: true },
-          { text: "fews of", correct: false }
+          { text: "where", correct: false },
+          { text: "who", correct: true },
+          { text: "that he", correct: false },
+          { text: "that", correct: false }
       ]
   },
   {
-      question: "How … sugar did you buy at the supermarket",
+      question: "We should only buy products … can be recycled.",
       answers: [
-          { text: "more than ", correct: false },
-          { text: "much", correct: true },
-          { text: "many", correct: false },
-          { text: "few", correct: false }
+          { text: "who ", correct: false },
+          { text: "that", correct: true },
+          { text: "that they", correct: false },
+          { text: "which", correct: true }
       ]
   },
   {
