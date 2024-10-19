@@ -115,12 +115,12 @@ function restartQuiz() {
 
 const questions = [
   {
-      question: "How … apples are there on the table?",
+      question: "I have a friend … speaks four languages.",
       answers: [
-          { text: " much", correct: false },
-          { text: "many ", correct: true },
-          { text: " few", correct: false },
-          { text: "lot", correct: false }
+          { text: " that he", correct: false },
+          { text: "who ", correct: true },
+          { text: " who him", correct: false },
+          { text: "which", correct: false }
       ]
   },
   {
