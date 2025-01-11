@@ -1,0 +1,150 @@
+/* Index:
+1. Universal styles
+2. Header
+3. Hero section
+4. Content
+  4.1 Teas
+  4.2 Locations
+5. Footer
+  5.1 Contact
+*/
+
+  /*1. Universal styles */
+
+html{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+body{
+  max-width: 1240px;
+  margin: 0 auto;
+}
+  
+  /*2. Header*/
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+}  
+
+.logo{
+  height: 50px;
+  margin-left: 10px;
+}
+
+.box{
+  display: inline-block;
+}
+
+.nav>li{
+  display: inline;
+  padding-left: 10px;
+}
+
+.nav a:hover{
+  color:red;
+}
+
+.nav a{
+  color: seashell;
+}
+
+  /*3. Hero*/
+
+.hero{
+  display:flex;
+  align-items: center;
+  height: 700px ;
+  width: 1200px;
+  background-image: url("img/Background.jpg");
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.hero .box{
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  align-items: center;  
+  line-height: 10px ;
+  opacity: .8;
+}
+
+  /*4. Content*/
+    /*4.1 Teas*/
+
+.month h2,
+.month h4{
+  text-align: center;
+}
+
+.month h4{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.month h2{
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.teas{
+  display:flex;
+  margin: 0 auto;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.teas img{
+  height: 200px;
+  width: 300px;
+}
+
+.teas h4{
+  margin-top: 10px;
+}
+
+  /*4.2 Locations*/
+
+.locations{
+  display:flex;
+  height: 500px ;
+  width: 1200px;
+  background-image: url("img/Locations.jpg");
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  column-gap: 30px;
+  opacity: 1;
+}
+
+.locations h2{
+  position: absolute;
+  top: 1520px;
+  opacity: 1;
+}
+
+.location{
+  width: 300px;
+  background-color: black;
+  height: fit-content;
+  text-align: center;
+  opacity: 1;
+}
+
+.contact{
+  height: 200px ;
+  text-align: center;
+}
+
+.contact h2{
+  margin-bottom: 50px;
+}
