@@ -55,7 +55,7 @@ body{
   color: seashell;
 }
 nav{
-  float: inline-end;
+  float: inline-flex;
 }
   /*3. Hero*/
 
