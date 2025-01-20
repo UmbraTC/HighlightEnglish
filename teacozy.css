@@ -54,7 +54,9 @@ body{
 .nav a{
   color: seashell;
 }
-
+nav{
+  float: inline-end;
+}
   /*3. Hero*/
 
 .hero{
