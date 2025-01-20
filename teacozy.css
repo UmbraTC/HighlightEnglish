@@ -119,11 +119,14 @@ body{
   height: 500px ;
   width: 1200px;
   background-image: url("img/Locations.jpg");
+  background-size: cover;
   justify-content: center;
+  background-position: center;
   align-items: center;
   margin-left: 20px;
   column-gap: 30px;
   opacity: 1;
+  overflow: hidden;
 }
 
 .locations h2{
@@ -137,7 +140,7 @@ body{
   background-color: black;
   height: fit-content;
   text-align: center;
-  opacity: 1;
+  opacity: 0.75;
 }
 
 .contact{
